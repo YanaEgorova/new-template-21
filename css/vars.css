@@ -1,0 +1,19 @@
+:root {
+  --main-bg-color: #fff;
+  --sub-bg-color: #000;
+  --main-text-color: #000;
+  --sub-text-color: #fff;
+  --inactive: #818181;
+  --success: #bee3be;
+  --link-color: blue;
+  --accent-color: #ff0000;
+
+  --first-brand-color: #266bd9;
+  --second-brand-color: #e5c1b1;
+  --third-brand-color: #d39f80;
+
+  --main-font: 'Roboto Condensed';
+  --title-font: 'Roboto Condensed Bold';
+
+  font-size: 62.5%;
+}

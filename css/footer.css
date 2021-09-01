@@ -1,0 +1,119 @@
+.footer__wrapper {
+  position: relative;
+  background-color: var(--sub-bg-color);
+}
+.footer {
+  padding: 3rem  0;
+}
+.footer__top {
+  margin-bottom: 3rem;
+}
+.footer__left, .footer__right {
+  margin-bottom: 3rem;
+}
+.footer__title {
+  font-family: var(--title-font);
+  text-transform: uppercase;
+  font-size: 1.8rem;
+  margin-bottom: 2rem;
+  color: var(--sub-text-color);
+}
+.footer__span {
+  font-size: 1.3rem;
+  color: var(--sub-text-color);
+}
+.footer__link-span {
+  position: relative;
+  color: inherit;
+  margin-left: 1rem;
+}
+.footer__text {
+  display: flex;
+  align-items: center;
+}
+.footer__text svg {
+  width: 2.5rem;
+  margin-right: .5rem;
+  fill: var(--sub-text-color);
+  transition: all 0.3s ease-in-out;
+}
+.footer .text {
+  margin-bottom: 1rem;
+}
+.footer .text, .footer .text .bold {
+  color: var(--sub-text-color);
+}
+.footer__page-link {
+  display: block;
+}
+.logo span, .logo::after {
+  color: var(--sub-text-color);
+}
+
+@media screen and (min-width: 768px) {
+  .footer__top {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  .footer__span {
+    display: block;
+    text-align: right;
+  }
+  .footer__left, .footer__right {
+    margin-bottom: 0;
+  }
+
+  /* FOOTER LINK ON HOVER */
+
+  .footer__link-span::before,
+  .footer__link-span::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: .1rem;
+    background: var(--sub-text-color);
+    top: 100%;
+    left: 0;
+    pointer-events: none;
+  }
+  .text-section__wrapper .footer__link-span::before, .text-section__wrapper .footer__link-span::after{
+      background: var(--sub-text-color);
+  }
+
+  .footer__link-span.footer__link-span-no::before {
+      display: none;
+  }
+  .footer__link-span.footer__link-span-no::after {
+    display: none;
+}
+  .footer__link-span::before {
+    transform-origin: 100% 50%;
+    transform: scale3d(0, 1, 1);
+    transition: transform 0.3s cubic-bezier(0.7, 0, 0.2, 1);
+  }
+
+  .footer__link-span:hover::before {
+    transform-origin: 0% 50%;
+    transform: scale3d(1, 1, 1);
+    transition-timing-function: cubic-bezier(0.4, 1, 0.8, 1);
+  }
+
+  .footer__link-span::after {
+    content: '';
+    top: calc(100% + .4rem);
+    transform-origin: 0% 50%;
+    transform: scale3d(0, 1, 1);
+    transition: transform 0.3s cubic-bezier(0.7, 0, 0.2, 1);
+  }
+
+  .footer__link-span:hover::after {
+    transform-origin: 100% 50%;
+    transform: scale3d(1, 1, 1);
+    transition-timing-function: cubic-bezier(0.4, 1, 0.8, 1);
+  }
+
+  /* LOGO ON HOVER */
+
+
+}

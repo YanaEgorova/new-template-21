@@ -1,0 +1,2493 @@
+.wrapper {
+  background-image: radial-gradient(circle, #222, #000 320px);
+  overflow: hidden;
+}
+.white-wrapper {
+  background-image: none;
+}
+
+.animation-container {
+  position: absolute;
+}
+.animation-container-first {
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.animation-container-second {
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.animation-container-third {
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.animation-container-fourth {
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+
+
+.animation-container > div {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  transform: translate(-50%, -50%) rotate(var(--ro, 0deg)) scale(0);
+  box-shadow: 0px 0 10px #0007;
+  -webkit-animation: move 10s infinite;
+          animation: move 10s infinite;
+}
+.animation-container > div:nth-child(1) {
+  --ro: 207deg;
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+  background-image: radial-gradient(circle at top, #ef8f8f, #701010);
+}
+.animation-container > div:nth-child(2) {
+  --ro: 289deg;
+  -webkit-animation-delay: 1.005s;
+          animation-delay: 1.005s;
+  background-image: radial-gradient(circle at top, #ef918f, #701110);
+}
+.animation-container > div:nth-child(3) {
+  --ro: 80deg;
+  -webkit-animation-delay: 1.01s;
+          animation-delay: 1.01s;
+  background-image: radial-gradient(circle at top, #ef928f, #701310);
+}
+.animation-container > div:nth-child(4) {
+  --ro: 260deg;
+  -webkit-animation-delay: 1.015s;
+          animation-delay: 1.015s;
+  background-image: radial-gradient(circle at top, #ef948f, #701410);
+}
+.animation-container > div:nth-child(5) {
+  --ro: 273deg;
+  -webkit-animation-delay: 1.02s;
+          animation-delay: 1.02s;
+  background-image: radial-gradient(circle at top, #ef958f, #701610);
+}
+.animation-container > div:nth-child(6) {
+  --ro: 240deg;
+  -webkit-animation-delay: 1.025s;
+          animation-delay: 1.025s;
+  background-image: radial-gradient(circle at top, #ef978f, #701710);
+}
+.animation-container > div:nth-child(7) {
+  --ro: 84deg;
+  -webkit-animation-delay: 1.03s;
+          animation-delay: 1.03s;
+  background-image: radial-gradient(circle at top, #ef988f, #701910);
+}
+.animation-container > div:nth-child(8) {
+  --ro: 99deg;
+  -webkit-animation-delay: 1.035s;
+          animation-delay: 1.035s;
+  background-image: radial-gradient(circle at top, #ef998f, #701a10);
+}
+.animation-container > div:nth-child(9) {
+  --ro: 233deg;
+  -webkit-animation-delay: 1.04s;
+          animation-delay: 1.04s;
+  background-image: radial-gradient(circle at top, #ef9b8f, #701b10);
+}
+.animation-container > div:nth-child(10) {
+  --ro: 83deg;
+  -webkit-animation-delay: 1.045s;
+          animation-delay: 1.045s;
+  background-image: radial-gradient(circle at top, #ef9c8f, #701d10);
+}
+.animation-container > div:nth-child(11) {
+  --ro: 216deg;
+  -webkit-animation-delay: 1.05s;
+          animation-delay: 1.05s;
+  background-image: radial-gradient(circle at top, #ef9e8f, #701e10);
+}
+.animation-container > div:nth-child(12) {
+  --ro: 92deg;
+  -webkit-animation-delay: 1.055s;
+          animation-delay: 1.055s;
+  background-image: radial-gradient(circle at top, #ef9f8f, #702010);
+}
+.animation-container > div:nth-child(13) {
+  --ro: 230deg;
+  -webkit-animation-delay: 1.06s;
+          animation-delay: 1.06s;
+  background-image: radial-gradient(circle at top, #efa18f, #702110);
+}
+.animation-container > div:nth-child(14) {
+  --ro: 37deg;
+  -webkit-animation-delay: 1.065s;
+          animation-delay: 1.065s;
+  background-image: radial-gradient(circle at top, #efa28f, #702310);
+}
+.animation-container > div:nth-child(15) {
+  --ro: 172deg;
+  -webkit-animation-delay: 1.07s;
+          animation-delay: 1.07s;
+  background-image: radial-gradient(circle at top, #efa48f, #702410);
+}
+.animation-container > div:nth-child(16) {
+  --ro: 140deg;
+  -webkit-animation-delay: 1.075s;
+          animation-delay: 1.075s;
+  background-image: radial-gradient(circle at top, #efa58f, #702510);
+}
+.animation-container > div:nth-child(17) {
+  --ro: 144deg;
+  -webkit-animation-delay: 1.08s;
+          animation-delay: 1.08s;
+  background-image: radial-gradient(circle at top, #efa68f, #702710);
+}
+.animation-container > div:nth-child(18) {
+  --ro: 26deg;
+  -webkit-animation-delay: 1.085s;
+          animation-delay: 1.085s;
+  background-image: radial-gradient(circle at top, #efa88f, #702810);
+}
+.animation-container > div:nth-child(19) {
+  --ro: 78deg;
+  -webkit-animation-delay: 1.09s;
+          animation-delay: 1.09s;
+  background-image: radial-gradient(circle at top, #efa98f, #702a10);
+}
+.animation-container > div:nth-child(20) {
+  --ro: 309deg;
+  -webkit-animation-delay: 1.095s;
+          animation-delay: 1.095s;
+  background-image: radial-gradient(circle at top, #efab8f, #702b10);
+}
+.animation-container > div:nth-child(21) {
+  --ro: 135deg;
+  -webkit-animation-delay: 1.1s;
+          animation-delay: 1.1s;
+  background-image: radial-gradient(circle at top, #efac8f, #702d10);
+}
+.animation-container > div:nth-child(22) {
+  --ro: 123deg;
+  -webkit-animation-delay: 1.105s;
+          animation-delay: 1.105s;
+  background-image: radial-gradient(circle at top, #efae8f, #702e10);
+}
+.animation-container > div:nth-child(23) {
+  --ro: 178deg;
+  -webkit-animation-delay: 1.11s;
+          animation-delay: 1.11s;
+  background-image: radial-gradient(circle at top, #efaf8f, #702f10);
+}
+.animation-container > div:nth-child(24) {
+  --ro: 353deg;
+  -webkit-animation-delay: 1.115s;
+          animation-delay: 1.115s;
+  background-image: radial-gradient(circle at top, #efb08f, #703110);
+}
+.animation-container > div:nth-child(25) {
+  --ro: 111deg;
+  -webkit-animation-delay: 1.12s;
+          animation-delay: 1.12s;
+  background-image: radial-gradient(circle at top, #efb28f, #703210);
+}
+.animation-container > div:nth-child(26) {
+  --ro: 92deg;
+  -webkit-animation-delay: 1.125s;
+          animation-delay: 1.125s;
+  background-image: radial-gradient(circle at top, #efb38f, #703410);
+}
+.animation-container > div:nth-child(27) {
+  --ro: 224deg;
+  -webkit-animation-delay: 1.13s;
+          animation-delay: 1.13s;
+  background-image: radial-gradient(circle at top, #efb58f, #703510);
+}
+.animation-container > div:nth-child(28) {
+  --ro: 202deg;
+  -webkit-animation-delay: 1.135s;
+          animation-delay: 1.135s;
+  background-image: radial-gradient(circle at top, #efb68f, #703710);
+}
+.animation-container > div:nth-child(29) {
+  --ro: 158deg;
+  -webkit-animation-delay: 1.14s;
+          animation-delay: 1.14s;
+  background-image: radial-gradient(circle at top, #efb88f, #703810);
+}
+.animation-container > div:nth-child(30) {
+  --ro: 175deg;
+  -webkit-animation-delay: 1.145s;
+          animation-delay: 1.145s;
+  background-image: radial-gradient(circle at top, #efb98f, #703a10);
+}
+.animation-container > div:nth-child(31) {
+  --ro: 250deg;
+  -webkit-animation-delay: 1.15s;
+          animation-delay: 1.15s;
+  background-image: radial-gradient(circle at top, #efba8f, #703b10);
+}
+.animation-container > div:nth-child(32) {
+  --ro: 313deg;
+  -webkit-animation-delay: 1.155s;
+          animation-delay: 1.155s;
+  background-image: radial-gradient(circle at top, #efbc8f, #703c10);
+}
+.animation-container > div:nth-child(33) {
+  --ro: 64deg;
+  -webkit-animation-delay: 1.16s;
+          animation-delay: 1.16s;
+  background-image: radial-gradient(circle at top, #efbd8f, #703e10);
+}
+.animation-container > div:nth-child(34) {
+  --ro: 143deg;
+  -webkit-animation-delay: 1.165s;
+          animation-delay: 1.165s;
+  background-image: radial-gradient(circle at top, #efbf8f, #703f10);
+}
+.animation-container > div:nth-child(35) {
+  --ro: 102deg;
+  -webkit-animation-delay: 1.17s;
+          animation-delay: 1.17s;
+  background-image: radial-gradient(circle at top, #efc08f, #704110);
+}
+.animation-container > div:nth-child(36) {
+  --ro: 159deg;
+  -webkit-animation-delay: 1.175s;
+          animation-delay: 1.175s;
+  background-image: radial-gradient(circle at top, #efc28f, #704210);
+}
+.animation-container > div:nth-child(37) {
+  --ro: 127deg;
+  -webkit-animation-delay: 1.18s;
+          animation-delay: 1.18s;
+  background-image: radial-gradient(circle at top, #efc38f, #704410);
+}
+.animation-container > div:nth-child(38) {
+  --ro: 139deg;
+  -webkit-animation-delay: 1.185s;
+          animation-delay: 1.185s;
+  background-image: radial-gradient(circle at top, #efc58f, #704510);
+}
+.animation-container > div:nth-child(39) {
+  --ro: 25deg;
+  -webkit-animation-delay: 1.19s;
+          animation-delay: 1.19s;
+  background-image: radial-gradient(circle at top, #efc68f, #704610);
+}
+.animation-container > div:nth-child(40) {
+  --ro: 104deg;
+  -webkit-animation-delay: 1.195s;
+          animation-delay: 1.195s;
+  background-image: radial-gradient(circle at top, #efc78f, #704810);
+}
+.animation-container > div:nth-child(41) {
+  --ro: 120deg;
+  -webkit-animation-delay: 1.2s;
+          animation-delay: 1.2s;
+  background-image: radial-gradient(circle at top, #efc98f, #704910);
+}
+.animation-container > div:nth-child(42) {
+  --ro: 117deg;
+  -webkit-animation-delay: 1.205s;
+          animation-delay: 1.205s;
+  background-image: radial-gradient(circle at top, #efca8f, #704b10);
+}
+.animation-container > div:nth-child(43) {
+  --ro: 209deg;
+  -webkit-animation-delay: 1.21s;
+          animation-delay: 1.21s;
+  background-image: radial-gradient(circle at top, #efcc8f, #704c10);
+}
+.animation-container > div:nth-child(44) {
+  --ro: 192deg;
+  -webkit-animation-delay: 1.215s;
+          animation-delay: 1.215s;
+  background-image: radial-gradient(circle at top, #efcd8f, #704e10);
+}
+.animation-container > div:nth-child(45) {
+  --ro: 233deg;
+  -webkit-animation-delay: 1.22s;
+          animation-delay: 1.22s;
+  background-image: radial-gradient(circle at top, #efcf8f, #704f10);
+}
+.animation-container > div:nth-child(46) {
+  --ro: 192deg;
+  -webkit-animation-delay: 1.225s;
+          animation-delay: 1.225s;
+  background-image: radial-gradient(circle at top, #efd08f, #705010);
+}
+.animation-container > div:nth-child(47) {
+  --ro: 230deg;
+  -webkit-animation-delay: 1.23s;
+          animation-delay: 1.23s;
+  background-image: radial-gradient(circle at top, #efd18f, #705210);
+}
+.animation-container > div:nth-child(48) {
+  --ro: 68deg;
+  -webkit-animation-delay: 1.235s;
+          animation-delay: 1.235s;
+  background-image: radial-gradient(circle at top, #efd38f, #705310);
+}
+.animation-container > div:nth-child(49) {
+  --ro: 144deg;
+  -webkit-animation-delay: 1.24s;
+          animation-delay: 1.24s;
+  background-image: radial-gradient(circle at top, #efd48f, #705510);
+}
+.animation-container > div:nth-child(50) {
+  --ro: 310deg;
+  -webkit-animation-delay: 1.245s;
+          animation-delay: 1.245s;
+  background-image: radial-gradient(circle at top, #efd68f, #705610);
+}
+.animation-container > div:nth-child(51) {
+  --ro: 226deg;
+  -webkit-animation-delay: 1.25s;
+          animation-delay: 1.25s;
+  background-image: radial-gradient(circle at top, #efd78f, #705810);
+}
+.animation-container > div:nth-child(52) {
+  --ro: 296deg;
+  -webkit-animation-delay: 1.255s;
+          animation-delay: 1.255s;
+  background-image: radial-gradient(circle at top, #efd98f, #705910);
+}
+.animation-container > div:nth-child(53) {
+  --ro: 26deg;
+  -webkit-animation-delay: 1.26s;
+          animation-delay: 1.26s;
+  background-image: radial-gradient(circle at top, #efda8f, #705b10);
+}
+.animation-container > div:nth-child(54) {
+  --ro: 105deg;
+  -webkit-animation-delay: 1.265s;
+          animation-delay: 1.265s;
+  background-image: radial-gradient(circle at top, #efdb8f, #705c10);
+}
+.animation-container > div:nth-child(55) {
+  --ro: 11deg;
+  -webkit-animation-delay: 1.27s;
+          animation-delay: 1.27s;
+  background-image: radial-gradient(circle at top, #efdd8f, #705d10);
+}
+.animation-container > div:nth-child(56) {
+  --ro: 105deg;
+  -webkit-animation-delay: 1.275s;
+          animation-delay: 1.275s;
+  background-image: radial-gradient(circle at top, #efde8f, #705f10);
+}
+.animation-container > div:nth-child(57) {
+  --ro: 47deg;
+  -webkit-animation-delay: 1.28s;
+          animation-delay: 1.28s;
+  background-image: radial-gradient(circle at top, #efe08f, #706010);
+}
+.animation-container > div:nth-child(58) {
+  --ro: 300deg;
+  -webkit-animation-delay: 1.285s;
+          animation-delay: 1.285s;
+  background-image: radial-gradient(circle at top, #efe18f, #706210);
+}
+.animation-container > div:nth-child(59) {
+  --ro: 28deg;
+  -webkit-animation-delay: 1.29s;
+          animation-delay: 1.29s;
+  background-image: radial-gradient(circle at top, #efe38f, #706310);
+}
+.animation-container > div:nth-child(60) {
+  --ro: 144deg;
+  -webkit-animation-delay: 1.295s;
+          animation-delay: 1.295s;
+  background-image: radial-gradient(circle at top, #efe48f, #706510);
+}
+.animation-container > div:nth-child(61) {
+  --ro: 330deg;
+  -webkit-animation-delay: 1.3s;
+          animation-delay: 1.3s;
+  background-image: radial-gradient(circle at top, #efe68f, #706610);
+}
+.animation-container > div:nth-child(62) {
+  --ro: 228deg;
+  -webkit-animation-delay: 1.305s;
+          animation-delay: 1.305s;
+  background-image: radial-gradient(circle at top, #efe78f, #706710);
+}
+.animation-container > div:nth-child(63) {
+  --ro: 111deg;
+  -webkit-animation-delay: 1.31s;
+          animation-delay: 1.31s;
+  background-image: radial-gradient(circle at top, #efe88f, #706910);
+}
+.animation-container > div:nth-child(64) {
+  --ro: 62deg;
+  -webkit-animation-delay: 1.315s;
+          animation-delay: 1.315s;
+  background-image: radial-gradient(circle at top, #efea8f, #706a10);
+}
+.animation-container > div:nth-child(65) {
+  --ro: 215deg;
+  -webkit-animation-delay: 1.32s;
+          animation-delay: 1.32s;
+  background-image: radial-gradient(circle at top, #efeb8f, #706c10);
+}
+.animation-container > div:nth-child(66) {
+  --ro: 79deg;
+  -webkit-animation-delay: 1.325s;
+          animation-delay: 1.325s;
+  background-image: radial-gradient(circle at top, #efed8f, #706d10);
+}
+.animation-container > div:nth-child(67) {
+  --ro: 360deg;
+  -webkit-animation-delay: 1.33s;
+          animation-delay: 1.33s;
+  background-image: radial-gradient(circle at top, #efee8f, #706f10);
+}
+.animation-container > div:nth-child(68) {
+  --ro: 237deg;
+  -webkit-animation-delay: 1.335s;
+          animation-delay: 1.335s;
+  background-image: radial-gradient(circle at top, #efef8f, #6f7010);
+}
+.animation-container > div:nth-child(69) {
+  --ro: 13deg;
+  -webkit-animation-delay: 1.34s;
+          animation-delay: 1.34s;
+  background-image: radial-gradient(circle at top, #edef8f, #6e7010);
+}
+.animation-container > div:nth-child(70) {
+  --ro: 271deg;
+  -webkit-animation-delay: 1.345s;
+          animation-delay: 1.345s;
+  background-image: radial-gradient(circle at top, #ecef8f, #6c7010);
+}
+.animation-container > div:nth-child(71) {
+  --ro: 119deg;
+  -webkit-animation-delay: 1.35s;
+          animation-delay: 1.35s;
+  background-image: radial-gradient(circle at top, #eaef8f, #6b7010);
+}
+.animation-container > div:nth-child(72) {
+  --ro: 13deg;
+  -webkit-animation-delay: 1.355s;
+          animation-delay: 1.355s;
+  background-image: radial-gradient(circle at top, #e9ef8f, #697010);
+}
+.animation-container > div:nth-child(73) {
+  --ro: 176deg;
+  -webkit-animation-delay: 1.36s;
+          animation-delay: 1.36s;
+  background-image: radial-gradient(circle at top, #e7ef8f, #687010);
+}
+.animation-container > div:nth-child(74) {
+  --ro: 269deg;
+  -webkit-animation-delay: 1.365s;
+          animation-delay: 1.365s;
+  background-image: radial-gradient(circle at top, #e6ef8f, #667010);
+}
+.animation-container > div:nth-child(75) {
+  --ro: 340deg;
+  -webkit-animation-delay: 1.37s;
+          animation-delay: 1.37s;
+  background-image: radial-gradient(circle at top, #e5ef8f, #657010);
+}
+.animation-container > div:nth-child(76) {
+  --ro: 342deg;
+  -webkit-animation-delay: 1.375s;
+          animation-delay: 1.375s;
+  background-image: radial-gradient(circle at top, #e3ef8f, #647010);
+}
+.animation-container > div:nth-child(77) {
+  --ro: 84deg;
+  -webkit-animation-delay: 1.38s;
+          animation-delay: 1.38s;
+  background-image: radial-gradient(circle at top, #e2ef8f, #627010);
+}
+.animation-container > div:nth-child(78) {
+  --ro: 284deg;
+  -webkit-animation-delay: 1.385s;
+          animation-delay: 1.385s;
+  background-image: radial-gradient(circle at top, #e0ef8f, #617010);
+}
+.animation-container > div:nth-child(79) {
+  --ro: 35deg;
+  -webkit-animation-delay: 1.39s;
+          animation-delay: 1.39s;
+  background-image: radial-gradient(circle at top, #dfef8f, #5f7010);
+}
+.animation-container > div:nth-child(80) {
+  --ro: 172deg;
+  -webkit-animation-delay: 1.395s;
+          animation-delay: 1.395s;
+  background-image: radial-gradient(circle at top, #ddef8f, #5e7010);
+}
+.animation-container > div:nth-child(81) {
+  --ro: 34deg;
+  -webkit-animation-delay: 1.4s;
+          animation-delay: 1.4s;
+  background-image: radial-gradient(circle at top, #dcef8f, #5c7010);
+}
+.animation-container > div:nth-child(82) {
+  --ro: 35deg;
+  -webkit-animation-delay: 1.405s;
+          animation-delay: 1.405s;
+  background-image: radial-gradient(circle at top, #dbef8f, #5b7010);
+}
+.animation-container > div:nth-child(83) {
+  --ro: 273deg;
+  -webkit-animation-delay: 1.41s;
+          animation-delay: 1.41s;
+  background-image: radial-gradient(circle at top, #d9ef8f, #5a7010);
+}
+.animation-container > div:nth-child(84) {
+  --ro: 320deg;
+  -webkit-animation-delay: 1.415s;
+          animation-delay: 1.415s;
+  background-image: radial-gradient(circle at top, #d8ef8f, #587010);
+}
+.animation-container > div:nth-child(85) {
+  --ro: 347deg;
+  -webkit-animation-delay: 1.42s;
+          animation-delay: 1.42s;
+  background-image: radial-gradient(circle at top, #d6ef8f, #577010);
+}
+.animation-container > div:nth-child(86) {
+  --ro: 310deg;
+  -webkit-animation-delay: 1.425s;
+          animation-delay: 1.425s;
+  background-image: radial-gradient(circle at top, #d5ef8f, #557010);
+}
+.animation-container > div:nth-child(87) {
+  --ro: 32deg;
+  -webkit-animation-delay: 1.43s;
+          animation-delay: 1.43s;
+  background-image: radial-gradient(circle at top, #d3ef8f, #547010);
+}
+.animation-container > div:nth-child(88) {
+  --ro: 295deg;
+  -webkit-animation-delay: 1.435s;
+          animation-delay: 1.435s;
+  background-image: radial-gradient(circle at top, #d2ef8f, #527010);
+}
+.animation-container > div:nth-child(89) {
+  --ro: 320deg;
+  -webkit-animation-delay: 1.44s;
+          animation-delay: 1.44s;
+  background-image: radial-gradient(circle at top, #d0ef8f, #517010);
+}
+.animation-container > div:nth-child(90) {
+  --ro: 169deg;
+  -webkit-animation-delay: 1.445s;
+          animation-delay: 1.445s;
+  background-image: radial-gradient(circle at top, #cfef8f, #507010);
+}
+.animation-container > div:nth-child(91) {
+  --ro: 76deg;
+  -webkit-animation-delay: 1.45s;
+          animation-delay: 1.45s;
+  background-image: radial-gradient(circle at top, #ceef8f, #4e7010);
+}
+.animation-container > div:nth-child(92) {
+  --ro: 276deg;
+  -webkit-animation-delay: 1.455s;
+          animation-delay: 1.455s;
+  background-image: radial-gradient(circle at top, #ccef8f, #4d7010);
+}
+.animation-container > div:nth-child(93) {
+  --ro: 339deg;
+  -webkit-animation-delay: 1.46s;
+          animation-delay: 1.46s;
+  background-image: radial-gradient(circle at top, #cbef8f, #4b7010);
+}
+.animation-container > div:nth-child(94) {
+  --ro: 215deg;
+  -webkit-animation-delay: 1.465s;
+          animation-delay: 1.465s;
+  background-image: radial-gradient(circle at top, #c9ef8f, #4a7010);
+}
+.animation-container > div:nth-child(95) {
+  --ro: 222deg;
+  -webkit-animation-delay: 1.47s;
+          animation-delay: 1.47s;
+  background-image: radial-gradient(circle at top, #c8ef8f, #487010);
+}
+.animation-container > div:nth-child(96) {
+  --ro: 248deg;
+  -webkit-animation-delay: 1.475s;
+          animation-delay: 1.475s;
+  background-image: radial-gradient(circle at top, #c6ef8f, #477010);
+}
+.animation-container > div:nth-child(97) {
+  --ro: 94deg;
+  -webkit-animation-delay: 1.48s;
+          animation-delay: 1.48s;
+  background-image: radial-gradient(circle at top, #c5ef8f, #457010);
+}
+.animation-container > div:nth-child(98) {
+  --ro: 86deg;
+  -webkit-animation-delay: 1.485s;
+          animation-delay: 1.485s;
+  background-image: radial-gradient(circle at top, #c4ef8f, #447010);
+}
+.animation-container > div:nth-child(99) {
+  --ro: 203deg;
+  -webkit-animation-delay: 1.49s;
+          animation-delay: 1.49s;
+  background-image: radial-gradient(circle at top, #c2ef8f, #437010);
+}
+.animation-container > div:nth-child(100) {
+  --ro: 188deg;
+  -webkit-animation-delay: 1.495s;
+          animation-delay: 1.495s;
+  background-image: radial-gradient(circle at top, #c1ef8f, #417010);
+}
+.animation-container > div:nth-child(101) {
+  --ro: 109deg;
+  -webkit-animation-delay: 1.5s;
+          animation-delay: 1.5s;
+  background-image: radial-gradient(circle at top, #bfef8f, #407010);
+}
+.animation-container > div:nth-child(102) {
+  --ro: 18deg;
+  -webkit-animation-delay: 1.505s;
+          animation-delay: 1.505s;
+  background-image: radial-gradient(circle at top, #beef8f, #3e7010);
+}
+.animation-container > div:nth-child(103) {
+  --ro: 299deg;
+  -webkit-animation-delay: 1.51s;
+          animation-delay: 1.51s;
+  background-image: radial-gradient(circle at top, #bcef8f, #3d7010);
+}
+.animation-container > div:nth-child(104) {
+  --ro: 196deg;
+  -webkit-animation-delay: 1.515s;
+          animation-delay: 1.515s;
+  background-image: radial-gradient(circle at top, #bbef8f, #3b7010);
+}
+.animation-container > div:nth-child(105) {
+  --ro: 144deg;
+  -webkit-animation-delay: 1.52s;
+          animation-delay: 1.52s;
+  background-image: radial-gradient(circle at top, #baef8f, #3a7010);
+}
+.animation-container > div:nth-child(106) {
+  --ro: 178deg;
+  -webkit-animation-delay: 1.525s;
+          animation-delay: 1.525s;
+  background-image: radial-gradient(circle at top, #b8ef8f, #397010);
+}
+.animation-container > div:nth-child(107) {
+  --ro: 175deg;
+  -webkit-animation-delay: 1.53s;
+          animation-delay: 1.53s;
+  background-image: radial-gradient(circle at top, #b7ef8f, #377010);
+}
+.animation-container > div:nth-child(108) {
+  --ro: 288deg;
+  -webkit-animation-delay: 1.535s;
+          animation-delay: 1.535s;
+  background-image: radial-gradient(circle at top, #b5ef8f, #367010);
+}
+.animation-container > div:nth-child(109) {
+  --ro: 27deg;
+  -webkit-animation-delay: 1.54s;
+          animation-delay: 1.54s;
+  background-image: radial-gradient(circle at top, #b4ef8f, #347010);
+}
+.animation-container > div:nth-child(110) {
+  --ro: 281deg;
+  -webkit-animation-delay: 1.545s;
+          animation-delay: 1.545s;
+  background-image: radial-gradient(circle at top, #b2ef8f, #337010);
+}
+.animation-container > div:nth-child(111) {
+  --ro: 111deg;
+  -webkit-animation-delay: 1.55s;
+          animation-delay: 1.55s;
+  background-image: radial-gradient(circle at top, #b1ef8f, #317010);
+}
+.animation-container > div:nth-child(112) {
+  --ro: 137deg;
+  -webkit-animation-delay: 1.555s;
+          animation-delay: 1.555s;
+  background-image: radial-gradient(circle at top, #afef8f, #307010);
+}
+.animation-container > div:nth-child(113) {
+  --ro: 91deg;
+  -webkit-animation-delay: 1.56s;
+          animation-delay: 1.56s;
+  background-image: radial-gradient(circle at top, #aeef8f, #2f7010);
+}
+.animation-container > div:nth-child(114) {
+  --ro: 207deg;
+  -webkit-animation-delay: 1.565s;
+          animation-delay: 1.565s;
+  background-image: radial-gradient(circle at top, #adef8f, #2d7010);
+}
+.animation-container > div:nth-child(115) {
+  --ro: 282deg;
+  -webkit-animation-delay: 1.57s;
+          animation-delay: 1.57s;
+  background-image: radial-gradient(circle at top, #abef8f, #2c7010);
+}
+.animation-container > div:nth-child(116) {
+  --ro: 317deg;
+  -webkit-animation-delay: 1.575s;
+          animation-delay: 1.575s;
+  background-image: radial-gradient(circle at top, #aaef8f, #2a7010);
+}
+.animation-container > div:nth-child(117) {
+  --ro: 168deg;
+  -webkit-animation-delay: 1.58s;
+          animation-delay: 1.58s;
+  background-image: radial-gradient(circle at top, #a8ef8f, #297010);
+}
+.animation-container > div:nth-child(118) {
+  --ro: 296deg;
+  -webkit-animation-delay: 1.585s;
+          animation-delay: 1.585s;
+  background-image: radial-gradient(circle at top, #a7ef8f, #277010);
+}
+.animation-container > div:nth-child(119) {
+  --ro: 108deg;
+  -webkit-animation-delay: 1.59s;
+          animation-delay: 1.59s;
+  background-image: radial-gradient(circle at top, #a5ef8f, #267010);
+}
+.animation-container > div:nth-child(120) {
+  --ro: 123deg;
+  -webkit-animation-delay: 1.595s;
+          animation-delay: 1.595s;
+  background-image: radial-gradient(circle at top, #a4ef8f, #247010);
+}
+.animation-container > div:nth-child(121) {
+  --ro: 156deg;
+  -webkit-animation-delay: 1.6s;
+          animation-delay: 1.6s;
+  background-image: radial-gradient(circle at top, #a3ef8f, #237010);
+}
+.animation-container > div:nth-child(122) {
+  --ro: 129deg;
+  -webkit-animation-delay: 1.605s;
+          animation-delay: 1.605s;
+  background-image: radial-gradient(circle at top, #a1ef8f, #227010);
+}
+.animation-container > div:nth-child(123) {
+  --ro: 220deg;
+  -webkit-animation-delay: 1.61s;
+          animation-delay: 1.61s;
+  background-image: radial-gradient(circle at top, #a0ef8f, #207010);
+}
+.animation-container > div:nth-child(124) {
+  --ro: 166deg;
+  -webkit-animation-delay: 1.615s;
+          animation-delay: 1.615s;
+  background-image: radial-gradient(circle at top, #9eef8f, #1f7010);
+}
+.animation-container > div:nth-child(125) {
+  --ro: 3deg;
+  -webkit-animation-delay: 1.62s;
+          animation-delay: 1.62s;
+  background-image: radial-gradient(circle at top, #9def8f, #1d7010);
+}
+.animation-container > div:nth-child(126) {
+  --ro: 129deg;
+  -webkit-animation-delay: 1.625s;
+          animation-delay: 1.625s;
+  background-image: radial-gradient(circle at top, #9bef8f, #1c7010);
+}
+.animation-container > div:nth-child(127) {
+  --ro: 102deg;
+  -webkit-animation-delay: 1.63s;
+          animation-delay: 1.63s;
+  background-image: radial-gradient(circle at top, #9aef8f, #1a7010);
+}
+.animation-container > div:nth-child(128) {
+  --ro: 6deg;
+  -webkit-animation-delay: 1.635s;
+          animation-delay: 1.635s;
+  background-image: radial-gradient(circle at top, #99ef8f, #197010);
+}
+.animation-container > div:nth-child(129) {
+  --ro: 212deg;
+  -webkit-animation-delay: 1.64s;
+          animation-delay: 1.64s;
+  background-image: radial-gradient(circle at top, #97ef8f, #187010);
+}
+.animation-container > div:nth-child(130) {
+  --ro: 116deg;
+  -webkit-animation-delay: 1.645s;
+          animation-delay: 1.645s;
+  background-image: radial-gradient(circle at top, #96ef8f, #167010);
+}
+.animation-container > div:nth-child(131) {
+  --ro: 204deg;
+  -webkit-animation-delay: 1.65s;
+          animation-delay: 1.65s;
+  background-image: radial-gradient(circle at top, #94ef8f, #157010);
+}
+.animation-container > div:nth-child(132) {
+  --ro: 91deg;
+  -webkit-animation-delay: 1.655s;
+          animation-delay: 1.655s;
+  background-image: radial-gradient(circle at top, #93ef8f, #137010);
+}
+.animation-container > div:nth-child(133) {
+  --ro: 324deg;
+  -webkit-animation-delay: 1.66s;
+          animation-delay: 1.66s;
+  background-image: radial-gradient(circle at top, #91ef8f, #127010);
+}
+.animation-container > div:nth-child(134) {
+  --ro: 173deg;
+  -webkit-animation-delay: 1.665s;
+          animation-delay: 1.665s;
+  background-image: radial-gradient(circle at top, #90ef8f, #107010);
+}
+.animation-container > div:nth-child(135) {
+  --ro: 136deg;
+  -webkit-animation-delay: 1.67s;
+          animation-delay: 1.67s;
+  background-image: radial-gradient(circle at top, #8fef90, #107011);
+}
+.animation-container > div:nth-child(136) {
+  --ro: 65deg;
+  -webkit-animation-delay: 1.675s;
+          animation-delay: 1.675s;
+  background-image: radial-gradient(circle at top, #8fef92, #107012);
+}
+.animation-container > div:nth-child(137) {
+  --ro: 209deg;
+  -webkit-animation-delay: 1.68s;
+          animation-delay: 1.68s;
+  background-image: radial-gradient(circle at top, #8fef93, #107014);
+}
+.animation-container > div:nth-child(138) {
+  --ro: 166deg;
+  -webkit-animation-delay: 1.685s;
+          animation-delay: 1.685s;
+  background-image: radial-gradient(circle at top, #8fef95, #107015);
+}
+.animation-container > div:nth-child(139) {
+  --ro: 192deg;
+  -webkit-animation-delay: 1.69s;
+          animation-delay: 1.69s;
+  background-image: radial-gradient(circle at top, #8fef96, #107017);
+}
+.animation-container > div:nth-child(140) {
+  --ro: 262deg;
+  -webkit-animation-delay: 1.695s;
+          animation-delay: 1.695s;
+  background-image: radial-gradient(circle at top, #8fef98, #107018);
+}
+.animation-container > div:nth-child(141) {
+  --ro: 120deg;
+  -webkit-animation-delay: 1.7s;
+          animation-delay: 1.7s;
+  background-image: radial-gradient(circle at top, #8fef99, #10701a);
+}
+.animation-container > div:nth-child(142) {
+  --ro: 315deg;
+  -webkit-animation-delay: 1.705s;
+          animation-delay: 1.705s;
+  background-image: radial-gradient(circle at top, #8fef9a, #10701b);
+}
+.animation-container > div:nth-child(143) {
+  --ro: 53deg;
+  -webkit-animation-delay: 1.71s;
+          animation-delay: 1.71s;
+  background-image: radial-gradient(circle at top, #8fef9c, #10701c);
+}
+.animation-container > div:nth-child(144) {
+  --ro: 237deg;
+  -webkit-animation-delay: 1.715s;
+          animation-delay: 1.715s;
+  background-image: radial-gradient(circle at top, #8fef9d, #10701e);
+}
+.animation-container > div:nth-child(145) {
+  --ro: 333deg;
+  -webkit-animation-delay: 1.72s;
+          animation-delay: 1.72s;
+  background-image: radial-gradient(circle at top, #8fef9f, #10701f);
+}
+.animation-container > div:nth-child(146) {
+  --ro: 349deg;
+  -webkit-animation-delay: 1.725s;
+          animation-delay: 1.725s;
+  background-image: radial-gradient(circle at top, #8fefa0, #107021);
+}
+.animation-container > div:nth-child(147) {
+  --ro: 26deg;
+  -webkit-animation-delay: 1.73s;
+          animation-delay: 1.73s;
+  background-image: radial-gradient(circle at top, #8fefa2, #107022);
+}
+.animation-container > div:nth-child(148) {
+  --ro: 149deg;
+  -webkit-animation-delay: 1.735s;
+          animation-delay: 1.735s;
+  background-image: radial-gradient(circle at top, #8fefa3, #107024);
+}
+.animation-container > div:nth-child(149) {
+  --ro: 245deg;
+  -webkit-animation-delay: 1.74s;
+          animation-delay: 1.74s;
+  background-image: radial-gradient(circle at top, #8fefa4, #107025);
+}
+.animation-container > div:nth-child(150) {
+  --ro: 325deg;
+  -webkit-animation-delay: 1.745s;
+          animation-delay: 1.745s;
+  background-image: radial-gradient(circle at top, #8fefa6, #107026);
+}
+.animation-container > div:nth-child(151) {
+  --ro: 100deg;
+  -webkit-animation-delay: 1.75s;
+          animation-delay: 1.75s;
+  background-image: radial-gradient(circle at top, #8fefa7, #107028);
+}
+.animation-container > div:nth-child(152) {
+  --ro: 318deg;
+  -webkit-animation-delay: 1.755s;
+          animation-delay: 1.755s;
+  background-image: radial-gradient(circle at top, #8fefa9, #107029);
+}
+.animation-container > div:nth-child(153) {
+  --ro: 70deg;
+  -webkit-animation-delay: 1.76s;
+          animation-delay: 1.76s;
+  background-image: radial-gradient(circle at top, #8fefaa, #10702b);
+}
+.animation-container > div:nth-child(154) {
+  --ro: 345deg;
+  -webkit-animation-delay: 1.765s;
+          animation-delay: 1.765s;
+  background-image: radial-gradient(circle at top, #8fefac, #10702c);
+}
+.animation-container > div:nth-child(155) {
+  --ro: 58deg;
+  -webkit-animation-delay: 1.77s;
+          animation-delay: 1.77s;
+  background-image: radial-gradient(circle at top, #8fefad, #10702e);
+}
+.animation-container > div:nth-child(156) {
+  --ro: 132deg;
+  -webkit-animation-delay: 1.775s;
+          animation-delay: 1.775s;
+  background-image: radial-gradient(circle at top, #8fefaf, #10702f);
+}
+.animation-container > div:nth-child(157) {
+  --ro: 336deg;
+  -webkit-animation-delay: 1.78s;
+          animation-delay: 1.78s;
+  background-image: radial-gradient(circle at top, #8fefb0, #107030);
+}
+.animation-container > div:nth-child(158) {
+  --ro: 307deg;
+  -webkit-animation-delay: 1.785s;
+          animation-delay: 1.785s;
+  background-image: radial-gradient(circle at top, #8fefb1, #107032);
+}
+.animation-container > div:nth-child(159) {
+  --ro: 93deg;
+  -webkit-animation-delay: 1.79s;
+          animation-delay: 1.79s;
+  background-image: radial-gradient(circle at top, #8fefb3, #107033);
+}
+.animation-container > div:nth-child(160) {
+  --ro: 28deg;
+  -webkit-animation-delay: 1.795s;
+          animation-delay: 1.795s;
+  background-image: radial-gradient(circle at top, #8fefb4, #107035);
+}
+.animation-container > div:nth-child(161) {
+  --ro: 28deg;
+  -webkit-animation-delay: 1.8s;
+          animation-delay: 1.8s;
+  background-image: radial-gradient(circle at top, #8fefb6, #107036);
+}
+.animation-container > div:nth-child(162) {
+  --ro: 58deg;
+  -webkit-animation-delay: 1.805s;
+          animation-delay: 1.805s;
+  background-image: radial-gradient(circle at top, #8fefb7, #107038);
+}
+.animation-container > div:nth-child(163) {
+  --ro: 183deg;
+  -webkit-animation-delay: 1.81s;
+          animation-delay: 1.81s;
+  background-image: radial-gradient(circle at top, #8fefb9, #107039);
+}
+.animation-container > div:nth-child(164) {
+  --ro: 181deg;
+  -webkit-animation-delay: 1.815s;
+          animation-delay: 1.815s;
+  background-image: radial-gradient(circle at top, #8fefba, #10703a);
+}
+.animation-container > div:nth-child(165) {
+  --ro: 81deg;
+  -webkit-animation-delay: 1.82s;
+          animation-delay: 1.82s;
+  background-image: radial-gradient(circle at top, #8fefbb, #10703c);
+}
+.animation-container > div:nth-child(166) {
+  --ro: 109deg;
+  -webkit-animation-delay: 1.825s;
+          animation-delay: 1.825s;
+  background-image: radial-gradient(circle at top, #8fefbd, #10703d);
+}
+.animation-container > div:nth-child(167) {
+  --ro: 351deg;
+  -webkit-animation-delay: 1.83s;
+          animation-delay: 1.83s;
+  background-image: radial-gradient(circle at top, #8fefbe, #10703f);
+}
+.animation-container > div:nth-child(168) {
+  --ro: 225deg;
+  -webkit-animation-delay: 1.835s;
+          animation-delay: 1.835s;
+  background-image: radial-gradient(circle at top, #8fefc0, #107040);
+}
+.animation-container > div:nth-child(169) {
+  --ro: 212deg;
+  -webkit-animation-delay: 1.84s;
+          animation-delay: 1.84s;
+  background-image: radial-gradient(circle at top, #8fefc1, #107042);
+}
+.animation-container > div:nth-child(170) {
+  --ro: 270deg;
+  -webkit-animation-delay: 1.845s;
+          animation-delay: 1.845s;
+  background-image: radial-gradient(circle at top, #8fefc3, #107043);
+}
+.animation-container > div:nth-child(171) {
+  --ro: 347deg;
+  -webkit-animation-delay: 1.85s;
+          animation-delay: 1.85s;
+  background-image: radial-gradient(circle at top, #8fefc4, #107045);
+}
+.animation-container > div:nth-child(172) {
+  --ro: 266deg;
+  -webkit-animation-delay: 1.855s;
+          animation-delay: 1.855s;
+  background-image: radial-gradient(circle at top, #8fefc5, #107046);
+}
+.animation-container > div:nth-child(173) {
+  --ro: 83deg;
+  -webkit-animation-delay: 1.86s;
+          animation-delay: 1.86s;
+  background-image: radial-gradient(circle at top, #8fefc7, #107047);
+}
+.animation-container > div:nth-child(174) {
+  --ro: 18deg;
+  -webkit-animation-delay: 1.865s;
+          animation-delay: 1.865s;
+  background-image: radial-gradient(circle at top, #8fefc8, #107049);
+}
+.animation-container > div:nth-child(175) {
+  --ro: 63deg;
+  -webkit-animation-delay: 1.87s;
+          animation-delay: 1.87s;
+  background-image: radial-gradient(circle at top, #8fefca, #10704a);
+}
+.animation-container > div:nth-child(176) {
+  --ro: 124deg;
+  -webkit-animation-delay: 1.875s;
+          animation-delay: 1.875s;
+  background-image: radial-gradient(circle at top, #8fefcb, #10704c);
+}
+.animation-container > div:nth-child(177) {
+  --ro: 237deg;
+  -webkit-animation-delay: 1.88s;
+          animation-delay: 1.88s;
+  background-image: radial-gradient(circle at top, #8fefcd, #10704d);
+}
+.animation-container > div:nth-child(178) {
+  --ro: 212deg;
+  -webkit-animation-delay: 1.885s;
+          animation-delay: 1.885s;
+  background-image: radial-gradient(circle at top, #8fefce, #10704f);
+}
+.animation-container > div:nth-child(179) {
+  --ro: 197deg;
+  -webkit-animation-delay: 1.89s;
+          animation-delay: 1.89s;
+  background-image: radial-gradient(circle at top, #8fefd0, #107050);
+}
+.animation-container > div:nth-child(180) {
+  --ro: 96deg;
+  -webkit-animation-delay: 1.895s;
+          animation-delay: 1.895s;
+  background-image: radial-gradient(circle at top, #8fefd1, #107051);
+}
+.animation-container > div:nth-child(181) {
+  --ro: 161deg;
+  -webkit-animation-delay: 1.9s;
+          animation-delay: 1.9s;
+  background-image: radial-gradient(circle at top, #8fefd2, #107053);
+}
+.animation-container > div:nth-child(182) {
+  --ro: 168deg;
+  -webkit-animation-delay: 1.905s;
+          animation-delay: 1.905s;
+  background-image: radial-gradient(circle at top, #8fefd4, #107054);
+}
+.animation-container > div:nth-child(183) {
+  --ro: 241deg;
+  -webkit-animation-delay: 1.91s;
+          animation-delay: 1.91s;
+  background-image: radial-gradient(circle at top, #8fefd5, #107056);
+}
+.animation-container > div:nth-child(184) {
+  --ro: 251deg;
+  -webkit-animation-delay: 1.915s;
+          animation-delay: 1.915s;
+  background-image: radial-gradient(circle at top, #8fefd7, #107057);
+}
+.animation-container > div:nth-child(185) {
+  --ro: 161deg;
+  -webkit-animation-delay: 1.92s;
+          animation-delay: 1.92s;
+  background-image: radial-gradient(circle at top, #8fefd8, #107059);
+}
+.animation-container > div:nth-child(186) {
+  --ro: 198deg;
+  -webkit-animation-delay: 1.925s;
+          animation-delay: 1.925s;
+  background-image: radial-gradient(circle at top, #8fefda, #10705a);
+}
+.animation-container > div:nth-child(187) {
+  --ro: 206deg;
+  -webkit-animation-delay: 1.93s;
+          animation-delay: 1.93s;
+  background-image: radial-gradient(circle at top, #8fefdb, #10705b);
+}
+.animation-container > div:nth-child(188) {
+  --ro: 267deg;
+  -webkit-animation-delay: 1.935s;
+          animation-delay: 1.935s;
+  background-image: radial-gradient(circle at top, #8fefdc, #10705d);
+}
+.animation-container > div:nth-child(189) {
+  --ro: 235deg;
+  -webkit-animation-delay: 1.94s;
+          animation-delay: 1.94s;
+  background-image: radial-gradient(circle at top, #8fefde, #10705e);
+}
+.animation-container > div:nth-child(190) {
+  --ro: 322deg;
+  -webkit-animation-delay: 1.945s;
+          animation-delay: 1.945s;
+  background-image: radial-gradient(circle at top, #8fefdf, #107060);
+}
+.animation-container > div:nth-child(191) {
+  --ro: 188deg;
+  -webkit-animation-delay: 1.95s;
+          animation-delay: 1.95s;
+  background-image: radial-gradient(circle at top, #8fefe1, #107061);
+}
+.animation-container > div:nth-child(192) {
+  --ro: 345deg;
+  -webkit-animation-delay: 1.955s;
+          animation-delay: 1.955s;
+  background-image: radial-gradient(circle at top, #8fefe2, #107063);
+}
+.animation-container > div:nth-child(193) {
+  --ro: 57deg;
+  -webkit-animation-delay: 1.96s;
+          animation-delay: 1.96s;
+  background-image: radial-gradient(circle at top, #8fefe4, #107064);
+}
+.animation-container > div:nth-child(194) {
+  --ro: 80deg;
+  -webkit-animation-delay: 1.965s;
+          animation-delay: 1.965s;
+  background-image: radial-gradient(circle at top, #8fefe5, #107066);
+}
+.animation-container > div:nth-child(195) {
+  --ro: 40deg;
+  -webkit-animation-delay: 1.97s;
+          animation-delay: 1.97s;
+  background-image: radial-gradient(circle at top, #8fefe6, #107067);
+}
+.animation-container > div:nth-child(196) {
+  --ro: 15deg;
+  -webkit-animation-delay: 1.975s;
+          animation-delay: 1.975s;
+  background-image: radial-gradient(circle at top, #8fefe8, #107068);
+}
+.animation-container > div:nth-child(197) {
+  --ro: 26deg;
+  -webkit-animation-delay: 1.98s;
+          animation-delay: 1.98s;
+  background-image: radial-gradient(circle at top, #8fefe9, #10706a);
+}
+.animation-container > div:nth-child(198) {
+  --ro: 49deg;
+  -webkit-animation-delay: 1.985s;
+          animation-delay: 1.985s;
+  background-image: radial-gradient(circle at top, #8fefeb, #10706b);
+}
+.animation-container > div:nth-child(199) {
+  --ro: 42deg;
+  -webkit-animation-delay: 1.99s;
+          animation-delay: 1.99s;
+  background-image: radial-gradient(circle at top, #8fefec, #10706d);
+}
+.animation-container > div:nth-child(200) {
+  --ro: 10deg;
+  -webkit-animation-delay: 1.995s;
+          animation-delay: 1.995s;
+  background-image: radial-gradient(circle at top, #8fefee, #10706e);
+}
+.animation-container > div:nth-child(201) {
+  --ro: 202deg;
+  -webkit-animation-delay: 2s;
+          animation-delay: 2s;
+  background-image: radial-gradient(circle at top, #8fefef, #107070);
+}
+.animation-container > div:nth-child(202) {
+  --ro: 251deg;
+  -webkit-animation-delay: 2.005s;
+          animation-delay: 2.005s;
+  background-image: radial-gradient(circle at top, #8feeef, #106e70);
+}
+.animation-container > div:nth-child(203) {
+  --ro: 169deg;
+  -webkit-animation-delay: 2.01s;
+          animation-delay: 2.01s;
+  background-image: radial-gradient(circle at top, #8fecef, #106d70);
+}
+.animation-container > div:nth-child(204) {
+  --ro: 184deg;
+  -webkit-animation-delay: 2.015s;
+          animation-delay: 2.015s;
+  background-image: radial-gradient(circle at top, #8febef, #106b70);
+}
+.animation-container > div:nth-child(205) {
+  --ro: 141deg;
+  -webkit-animation-delay: 2.02s;
+          animation-delay: 2.02s;
+  background-image: radial-gradient(circle at top, #8fe9ef, #106a70);
+}
+.animation-container > div:nth-child(206) {
+  --ro: 203deg;
+  -webkit-animation-delay: 2.025s;
+          animation-delay: 2.025s;
+  background-image: radial-gradient(circle at top, #8fe8ef, #106870);
+}
+.animation-container > div:nth-child(207) {
+  --ro: 269deg;
+  -webkit-animation-delay: 2.03s;
+          animation-delay: 2.03s;
+  background-image: radial-gradient(circle at top, #8fe6ef, #106770);
+}
+.animation-container > div:nth-child(208) {
+  --ro: 21deg;
+  -webkit-animation-delay: 2.035s;
+          animation-delay: 2.035s;
+  background-image: radial-gradient(circle at top, #8fe5ef, #106670);
+}
+.animation-container > div:nth-child(209) {
+  --ro: 80deg;
+  -webkit-animation-delay: 2.04s;
+          animation-delay: 2.04s;
+  background-image: radial-gradient(circle at top, #8fe4ef, #106470);
+}
+.animation-container > div:nth-child(210) {
+  --ro: 35deg;
+  -webkit-animation-delay: 2.045s;
+          animation-delay: 2.045s;
+  background-image: radial-gradient(circle at top, #8fe2ef, #106370);
+}
+.animation-container > div:nth-child(211) {
+  --ro: 282deg;
+  -webkit-animation-delay: 2.05s;
+          animation-delay: 2.05s;
+  background-image: radial-gradient(circle at top, #8fe1ef, #106170);
+}
+.animation-container > div:nth-child(212) {
+  --ro: 147deg;
+  -webkit-animation-delay: 2.055s;
+          animation-delay: 2.055s;
+  background-image: radial-gradient(circle at top, #8fdfef, #106070);
+}
+.animation-container > div:nth-child(213) {
+  --ro: 356deg;
+  -webkit-animation-delay: 2.06s;
+          animation-delay: 2.06s;
+  background-image: radial-gradient(circle at top, #8fdeef, #105e70);
+}
+.animation-container > div:nth-child(214) {
+  --ro: 36deg;
+  -webkit-animation-delay: 2.065s;
+          animation-delay: 2.065s;
+  background-image: radial-gradient(circle at top, #8fdcef, #105d70);
+}
+.animation-container > div:nth-child(215) {
+  --ro: 301deg;
+  -webkit-animation-delay: 2.07s;
+          animation-delay: 2.07s;
+  background-image: radial-gradient(circle at top, #8fdbef, #105b70);
+}
+.animation-container > div:nth-child(216) {
+  --ro: 13deg;
+  -webkit-animation-delay: 2.075s;
+          animation-delay: 2.075s;
+  background-image: radial-gradient(circle at top, #8fdaef, #105a70);
+}
+.animation-container > div:nth-child(217) {
+  --ro: 175deg;
+  -webkit-animation-delay: 2.08s;
+          animation-delay: 2.08s;
+  background-image: radial-gradient(circle at top, #8fd8ef, #105970);
+}
+.animation-container > div:nth-child(218) {
+  --ro: 166deg;
+  -webkit-animation-delay: 2.085s;
+          animation-delay: 2.085s;
+  background-image: radial-gradient(circle at top, #8fd7ef, #105770);
+}
+.animation-container > div:nth-child(219) {
+  --ro: 165deg;
+  -webkit-animation-delay: 2.09s;
+          animation-delay: 2.09s;
+  background-image: radial-gradient(circle at top, #8fd5ef, #105670);
+}
+.animation-container > div:nth-child(220) {
+  --ro: 350deg;
+  -webkit-animation-delay: 2.095s;
+          animation-delay: 2.095s;
+  background-image: radial-gradient(circle at top, #8fd4ef, #105470);
+}
+.animation-container > div:nth-child(221) {
+  --ro: 63deg;
+  -webkit-animation-delay: 2.1s;
+          animation-delay: 2.1s;
+  background-image: radial-gradient(circle at top, #8fd2ef, #105370);
+}
+.animation-container > div:nth-child(222) {
+  --ro: 34deg;
+  -webkit-animation-delay: 2.105s;
+          animation-delay: 2.105s;
+  background-image: radial-gradient(circle at top, #8fd1ef, #105170);
+}
+.animation-container > div:nth-child(223) {
+  --ro: 207deg;
+  -webkit-animation-delay: 2.11s;
+          animation-delay: 2.11s;
+  background-image: radial-gradient(circle at top, #8fd0ef, #105070);
+}
+.animation-container > div:nth-child(224) {
+  --ro: 106deg;
+  -webkit-animation-delay: 2.115s;
+          animation-delay: 2.115s;
+  background-image: radial-gradient(circle at top, #8fceef, #104f70);
+}
+.animation-container > div:nth-child(225) {
+  --ro: 87deg;
+  -webkit-animation-delay: 2.12s;
+          animation-delay: 2.12s;
+  background-image: radial-gradient(circle at top, #8fcdef, #104d70);
+}
+.animation-container > div:nth-child(226) {
+  --ro: 353deg;
+  -webkit-animation-delay: 2.125s;
+          animation-delay: 2.125s;
+  background-image: radial-gradient(circle at top, #8fcbef, #104c70);
+}
+.animation-container > div:nth-child(227) {
+  --ro: 354deg;
+  -webkit-animation-delay: 2.13s;
+          animation-delay: 2.13s;
+  background-image: radial-gradient(circle at top, #8fcaef, #104a70);
+}
+.animation-container > div:nth-child(228) {
+  --ro: 245deg;
+  -webkit-animation-delay: 2.135s;
+          animation-delay: 2.135s;
+  background-image: radial-gradient(circle at top, #8fc8ef, #104970);
+}
+.animation-container > div:nth-child(229) {
+  --ro: 145deg;
+  -webkit-animation-delay: 2.14s;
+          animation-delay: 2.14s;
+  background-image: radial-gradient(circle at top, #8fc7ef, #104770);
+}
+.animation-container > div:nth-child(230) {
+  --ro: 234deg;
+  -webkit-animation-delay: 2.145s;
+          animation-delay: 2.145s;
+  background-image: radial-gradient(circle at top, #8fc5ef, #104670);
+}
+.animation-container > div:nth-child(231) {
+  --ro: 14deg;
+  -webkit-animation-delay: 2.15s;
+          animation-delay: 2.15s;
+  background-image: radial-gradient(circle at top, #8fc4ef, #104570);
+}
+.animation-container > div:nth-child(232) {
+  --ro: 340deg;
+  -webkit-animation-delay: 2.155s;
+          animation-delay: 2.155s;
+  background-image: radial-gradient(circle at top, #8fc3ef, #104370);
+}
+.animation-container > div:nth-child(233) {
+  --ro: 137deg;
+  -webkit-animation-delay: 2.16s;
+          animation-delay: 2.16s;
+  background-image: radial-gradient(circle at top, #8fc1ef, #104270);
+}
+.animation-container > div:nth-child(234) {
+  --ro: 308deg;
+  -webkit-animation-delay: 2.165s;
+          animation-delay: 2.165s;
+  background-image: radial-gradient(circle at top, #8fc0ef, #104070);
+}
+.animation-container > div:nth-child(235) {
+  --ro: 313deg;
+  -webkit-animation-delay: 2.17s;
+          animation-delay: 2.17s;
+  background-image: radial-gradient(circle at top, #8fbeef, #103f70);
+}
+.animation-container > div:nth-child(236) {
+  --ro: 113deg;
+  -webkit-animation-delay: 2.175s;
+          animation-delay: 2.175s;
+  background-image: radial-gradient(circle at top, #8fbdef, #103d70);
+}
+.animation-container > div:nth-child(237) {
+  --ro: 207deg;
+  -webkit-animation-delay: 2.18s;
+          animation-delay: 2.18s;
+  background-image: radial-gradient(circle at top, #8fbbef, #103c70);
+}
+.animation-container > div:nth-child(238) {
+  --ro: 70deg;
+  -webkit-animation-delay: 2.185s;
+          animation-delay: 2.185s;
+  background-image: radial-gradient(circle at top, #8fbaef, #103a70);
+}
+.animation-container > div:nth-child(239) {
+  --ro: 207deg;
+  -webkit-animation-delay: 2.19s;
+          animation-delay: 2.19s;
+  background-image: radial-gradient(circle at top, #8fb9ef, #103970);
+}
+.animation-container > div:nth-child(240) {
+  --ro: 210deg;
+  -webkit-animation-delay: 2.195s;
+          animation-delay: 2.195s;
+  background-image: radial-gradient(circle at top, #8fb7ef, #103870);
+}
+.animation-container > div:nth-child(241) {
+  --ro: 130deg;
+  -webkit-animation-delay: 2.2s;
+          animation-delay: 2.2s;
+  background-image: radial-gradient(circle at top, #8fb6ef, #103670);
+}
+.animation-container > div:nth-child(242) {
+  --ro: 107deg;
+  -webkit-animation-delay: 2.205s;
+          animation-delay: 2.205s;
+  background-image: radial-gradient(circle at top, #8fb4ef, #103570);
+}
+.animation-container > div:nth-child(243) {
+  --ro: 266deg;
+  -webkit-animation-delay: 2.21s;
+          animation-delay: 2.21s;
+  background-image: radial-gradient(circle at top, #8fb3ef, #103370);
+}
+.animation-container > div:nth-child(244) {
+  --ro: 211deg;
+  -webkit-animation-delay: 2.215s;
+          animation-delay: 2.215s;
+  background-image: radial-gradient(circle at top, #8fb1ef, #103270);
+}
+.animation-container > div:nth-child(245) {
+  --ro: 32deg;
+  -webkit-animation-delay: 2.22s;
+          animation-delay: 2.22s;
+  background-image: radial-gradient(circle at top, #8fb0ef, #103070);
+}
+.animation-container > div:nth-child(246) {
+  --ro: 198deg;
+  -webkit-animation-delay: 2.225s;
+          animation-delay: 2.225s;
+  background-image: radial-gradient(circle at top, #8fafef, #102f70);
+}
+.animation-container > div:nth-child(247) {
+  --ro: 71deg;
+  -webkit-animation-delay: 2.23s;
+          animation-delay: 2.23s;
+  background-image: radial-gradient(circle at top, #8fadef, #102e70);
+}
+.animation-container > div:nth-child(248) {
+  --ro: 103deg;
+  -webkit-animation-delay: 2.235s;
+          animation-delay: 2.235s;
+  background-image: radial-gradient(circle at top, #8facef, #102c70);
+}
+.animation-container > div:nth-child(249) {
+  --ro: 24deg;
+  -webkit-animation-delay: 2.24s;
+          animation-delay: 2.24s;
+  background-image: radial-gradient(circle at top, #8faaef, #102b70);
+}
+.animation-container > div:nth-child(250) {
+  --ro: 306deg;
+  -webkit-animation-delay: 2.245s;
+          animation-delay: 2.245s;
+  background-image: radial-gradient(circle at top, #8fa9ef, #102970);
+}
+.animation-container > div:nth-child(251) {
+  --ro: 130deg;
+  -webkit-animation-delay: 2.25s;
+          animation-delay: 2.25s;
+  background-image: radial-gradient(circle at top, #8fa7ef, #102870);
+}
+.animation-container > div:nth-child(252) {
+  --ro: 211deg;
+  -webkit-animation-delay: 2.255s;
+          animation-delay: 2.255s;
+  background-image: radial-gradient(circle at top, #8fa6ef, #102670);
+}
+.animation-container > div:nth-child(253) {
+  --ro: 227deg;
+  -webkit-animation-delay: 2.26s;
+          animation-delay: 2.26s;
+  background-image: radial-gradient(circle at top, #8fa4ef, #102570);
+}
+.animation-container > div:nth-child(254) {
+  --ro: 314deg;
+  -webkit-animation-delay: 2.265s;
+          animation-delay: 2.265s;
+  background-image: radial-gradient(circle at top, #8fa3ef, #102470);
+}
+.animation-container > div:nth-child(255) {
+  --ro: 274deg;
+  -webkit-animation-delay: 2.27s;
+          animation-delay: 2.27s;
+  background-image: radial-gradient(circle at top, #8fa2ef, #102270);
+}
+.animation-container > div:nth-child(256) {
+  --ro: 109deg;
+  -webkit-animation-delay: 2.275s;
+          animation-delay: 2.275s;
+  background-image: radial-gradient(circle at top, #8fa0ef, #102170);
+}
+.animation-container > div:nth-child(257) {
+  --ro: 231deg;
+  -webkit-animation-delay: 2.28s;
+          animation-delay: 2.28s;
+  background-image: radial-gradient(circle at top, #8f9fef, #101f70);
+}
+.animation-container > div:nth-child(258) {
+  --ro: 233deg;
+  -webkit-animation-delay: 2.285s;
+          animation-delay: 2.285s;
+  background-image: radial-gradient(circle at top, #8f9def, #101e70);
+}
+.animation-container > div:nth-child(259) {
+  --ro: 108deg;
+  -webkit-animation-delay: 2.29s;
+          animation-delay: 2.29s;
+  background-image: radial-gradient(circle at top, #8f9cef, #101c70);
+}
+.animation-container > div:nth-child(260) {
+  --ro: 198deg;
+  -webkit-animation-delay: 2.295s;
+          animation-delay: 2.295s;
+  background-image: radial-gradient(circle at top, #8f9aef, #101b70);
+}
+.animation-container > div:nth-child(261) {
+  --ro: 268deg;
+  -webkit-animation-delay: 2.3s;
+          animation-delay: 2.3s;
+  background-image: radial-gradient(circle at top, #8f99ef, #101a70);
+}
+.animation-container > div:nth-child(262) {
+  --ro: 97deg;
+  -webkit-animation-delay: 2.305s;
+          animation-delay: 2.305s;
+  background-image: radial-gradient(circle at top, #8f98ef, #101870);
+}
+.animation-container > div:nth-child(263) {
+  --ro: 70deg;
+  -webkit-animation-delay: 2.31s;
+          animation-delay: 2.31s;
+  background-image: radial-gradient(circle at top, #8f96ef, #101770);
+}
+.animation-container > div:nth-child(264) {
+  --ro: 77deg;
+  -webkit-animation-delay: 2.315s;
+          animation-delay: 2.315s;
+  background-image: radial-gradient(circle at top, #8f95ef, #101570);
+}
+.animation-container > div:nth-child(265) {
+  --ro: 39deg;
+  -webkit-animation-delay: 2.32s;
+          animation-delay: 2.32s;
+  background-image: radial-gradient(circle at top, #8f93ef, #101470);
+}
+.animation-container > div:nth-child(266) {
+  --ro: 119deg;
+  -webkit-animation-delay: 2.325s;
+          animation-delay: 2.325s;
+  background-image: radial-gradient(circle at top, #8f92ef, #101270);
+}
+.animation-container > div:nth-child(267) {
+  --ro: 126deg;
+  -webkit-animation-delay: 2.33s;
+          animation-delay: 2.33s;
+  background-image: radial-gradient(circle at top, #8f90ef, #101170);
+}
+.animation-container > div:nth-child(268) {
+  --ro: 36deg;
+  -webkit-animation-delay: 2.335s;
+          animation-delay: 2.335s;
+  background-image: radial-gradient(circle at top, #908fef, #101070);
+}
+.animation-container > div:nth-child(269) {
+  --ro: 315deg;
+  -webkit-animation-delay: 2.34s;
+          animation-delay: 2.34s;
+  background-image: radial-gradient(circle at top, #918fef, #121070);
+}
+.animation-container > div:nth-child(270) {
+  --ro: 184deg;
+  -webkit-animation-delay: 2.345s;
+          animation-delay: 2.345s;
+  background-image: radial-gradient(circle at top, #938fef, #131070);
+}
+.animation-container > div:nth-child(271) {
+  --ro: 53deg;
+  -webkit-animation-delay: 2.35s;
+          animation-delay: 2.35s;
+  background-image: radial-gradient(circle at top, #948fef, #151070);
+}
+.animation-container > div:nth-child(272) {
+  --ro: 148deg;
+  -webkit-animation-delay: 2.355s;
+          animation-delay: 2.355s;
+  background-image: radial-gradient(circle at top, #968fef, #161070);
+}
+.animation-container > div:nth-child(273) {
+  --ro: 293deg;
+  -webkit-animation-delay: 2.36s;
+          animation-delay: 2.36s;
+  background-image: radial-gradient(circle at top, #978fef, #181070);
+}
+.animation-container > div:nth-child(274) {
+  --ro: 168deg;
+  -webkit-animation-delay: 2.365s;
+          animation-delay: 2.365s;
+  background-image: radial-gradient(circle at top, #998fef, #191070);
+}
+.animation-container > div:nth-child(275) {
+  --ro: 51deg;
+  -webkit-animation-delay: 2.37s;
+          animation-delay: 2.37s;
+  background-image: radial-gradient(circle at top, #9a8fef, #1a1070);
+}
+.animation-container > div:nth-child(276) {
+  --ro: 184deg;
+  -webkit-animation-delay: 2.375s;
+          animation-delay: 2.375s;
+  background-image: radial-gradient(circle at top, #9b8fef, #1c1070);
+}
+.animation-container > div:nth-child(277) {
+  --ro: 113deg;
+  -webkit-animation-delay: 2.38s;
+          animation-delay: 2.38s;
+  background-image: radial-gradient(circle at top, #9d8fef, #1d1070);
+}
+.animation-container > div:nth-child(278) {
+  --ro: 250deg;
+  -webkit-animation-delay: 2.385s;
+          animation-delay: 2.385s;
+  background-image: radial-gradient(circle at top, #9e8fef, #1f1070);
+}
+.animation-container > div:nth-child(279) {
+  --ro: 326deg;
+  -webkit-animation-delay: 2.39s;
+          animation-delay: 2.39s;
+  background-image: radial-gradient(circle at top, #a08fef, #201070);
+}
+.animation-container > div:nth-child(280) {
+  --ro: 96deg;
+  -webkit-animation-delay: 2.395s;
+          animation-delay: 2.395s;
+  background-image: radial-gradient(circle at top, #a18fef, #221070);
+}
+.animation-container > div:nth-child(281) {
+  --ro: 252deg;
+  -webkit-animation-delay: 2.4s;
+          animation-delay: 2.4s;
+  background-image: radial-gradient(circle at top, #a38fef, #231070);
+}
+.animation-container > div:nth-child(282) {
+  --ro: 157deg;
+  -webkit-animation-delay: 2.405s;
+          animation-delay: 2.405s;
+  background-image: radial-gradient(circle at top, #a48fef, #241070);
+}
+.animation-container > div:nth-child(283) {
+  --ro: 296deg;
+  -webkit-animation-delay: 2.41s;
+          animation-delay: 2.41s;
+  background-image: radial-gradient(circle at top, #a58fef, #261070);
+}
+.animation-container > div:nth-child(284) {
+  --ro: 26deg;
+  -webkit-animation-delay: 2.415s;
+          animation-delay: 2.415s;
+  background-image: radial-gradient(circle at top, #a78fef, #271070);
+}
+.animation-container > div:nth-child(285) {
+  --ro: 45deg;
+  -webkit-animation-delay: 2.42s;
+          animation-delay: 2.42s;
+  background-image: radial-gradient(circle at top, #a88fef, #291070);
+}
+.animation-container > div:nth-child(286) {
+  --ro: 20deg;
+  -webkit-animation-delay: 2.425s;
+          animation-delay: 2.425s;
+  background-image: radial-gradient(circle at top, #aa8fef, #2a1070);
+}
+.animation-container > div:nth-child(287) {
+  --ro: 104deg;
+  -webkit-animation-delay: 2.43s;
+          animation-delay: 2.43s;
+  background-image: radial-gradient(circle at top, #ab8fef, #2c1070);
+}
+.animation-container > div:nth-child(288) {
+  --ro: 181deg;
+  -webkit-animation-delay: 2.435s;
+          animation-delay: 2.435s;
+  background-image: radial-gradient(circle at top, #ad8fef, #2d1070);
+}
+.animation-container > div:nth-child(289) {
+  --ro: 279deg;
+  -webkit-animation-delay: 2.44s;
+          animation-delay: 2.44s;
+  background-image: radial-gradient(circle at top, #ae8fef, #2f1070);
+}
+.animation-container > div:nth-child(290) {
+  --ro: 52deg;
+  -webkit-animation-delay: 2.445s;
+          animation-delay: 2.445s;
+  background-image: radial-gradient(circle at top, #af8fef, #301070);
+}
+.animation-container > div:nth-child(291) {
+  --ro: 301deg;
+  -webkit-animation-delay: 2.45s;
+          animation-delay: 2.45s;
+  background-image: radial-gradient(circle at top, #b18fef, #311070);
+}
+.animation-container > div:nth-child(292) {
+  --ro: 314deg;
+  -webkit-animation-delay: 2.455s;
+          animation-delay: 2.455s;
+  background-image: radial-gradient(circle at top, #b28fef, #331070);
+}
+.animation-container > div:nth-child(293) {
+  --ro: 208deg;
+  -webkit-animation-delay: 2.46s;
+          animation-delay: 2.46s;
+  background-image: radial-gradient(circle at top, #b48fef, #341070);
+}
+.animation-container > div:nth-child(294) {
+  --ro: 294deg;
+  -webkit-animation-delay: 2.465s;
+          animation-delay: 2.465s;
+  background-image: radial-gradient(circle at top, #b58fef, #361070);
+}
+.animation-container > div:nth-child(295) {
+  --ro: 118deg;
+  -webkit-animation-delay: 2.47s;
+          animation-delay: 2.47s;
+  background-image: radial-gradient(circle at top, #b78fef, #371070);
+}
+.animation-container > div:nth-child(296) {
+  --ro: 267deg;
+  -webkit-animation-delay: 2.475s;
+          animation-delay: 2.475s;
+  background-image: radial-gradient(circle at top, #b88fef, #391070);
+}
+.animation-container > div:nth-child(297) {
+  --ro: 1deg;
+  -webkit-animation-delay: 2.48s;
+          animation-delay: 2.48s;
+  background-image: radial-gradient(circle at top, #ba8fef, #3a1070);
+}
+.animation-container > div:nth-child(298) {
+  --ro: 121deg;
+  -webkit-animation-delay: 2.485s;
+          animation-delay: 2.485s;
+  background-image: radial-gradient(circle at top, #bb8fef, #3b1070);
+}
+.animation-container > div:nth-child(299) {
+  --ro: 143deg;
+  -webkit-animation-delay: 2.49s;
+          animation-delay: 2.49s;
+  background-image: radial-gradient(circle at top, #bc8fef, #3d1070);
+}
+.animation-container > div:nth-child(300) {
+  --ro: 192deg;
+  -webkit-animation-delay: 2.495s;
+          animation-delay: 2.495s;
+  background-image: radial-gradient(circle at top, #be8fef, #3e1070);
+}
+.animation-container > div:nth-child(301) {
+  --ro: 215deg;
+  -webkit-animation-delay: 2.5s;
+          animation-delay: 2.5s;
+  background-image: radial-gradient(circle at top, #bf8fef, #401070);
+}
+.animation-container > div:nth-child(302) {
+  --ro: 90deg;
+  -webkit-animation-delay: 2.505s;
+          animation-delay: 2.505s;
+  background-image: radial-gradient(circle at top, #c18fef, #411070);
+}
+.animation-container > div:nth-child(303) {
+  --ro: 290deg;
+  -webkit-animation-delay: 2.51s;
+          animation-delay: 2.51s;
+  background-image: radial-gradient(circle at top, #c28fef, #431070);
+}
+.animation-container > div:nth-child(304) {
+  --ro: 324deg;
+  -webkit-animation-delay: 2.515s;
+          animation-delay: 2.515s;
+  background-image: radial-gradient(circle at top, #c48fef, #441070);
+}
+.animation-container > div:nth-child(305) {
+  --ro: 168deg;
+  -webkit-animation-delay: 2.52s;
+          animation-delay: 2.52s;
+  background-image: radial-gradient(circle at top, #c58fef, #451070);
+}
+.animation-container > div:nth-child(306) {
+  --ro: 287deg;
+  -webkit-animation-delay: 2.525s;
+          animation-delay: 2.525s;
+  background-image: radial-gradient(circle at top, #c68fef, #471070);
+}
+.animation-container > div:nth-child(307) {
+  --ro: 316deg;
+  -webkit-animation-delay: 2.53s;
+          animation-delay: 2.53s;
+  background-image: radial-gradient(circle at top, #c88fef, #481070);
+}
+.animation-container > div:nth-child(308) {
+  --ro: 316deg;
+  -webkit-animation-delay: 2.535s;
+          animation-delay: 2.535s;
+  background-image: radial-gradient(circle at top, #c98fef, #4a1070);
+}
+.animation-container > div:nth-child(309) {
+  --ro: 354deg;
+  -webkit-animation-delay: 2.54s;
+          animation-delay: 2.54s;
+  background-image: radial-gradient(circle at top, #cb8fef, #4b1070);
+}
+.animation-container > div:nth-child(310) {
+  --ro: 245deg;
+  -webkit-animation-delay: 2.545s;
+          animation-delay: 2.545s;
+  background-image: radial-gradient(circle at top, #cc8fef, #4d1070);
+}
+.animation-container > div:nth-child(311) {
+  --ro: 353deg;
+  -webkit-animation-delay: 2.55s;
+          animation-delay: 2.55s;
+  background-image: radial-gradient(circle at top, #ce8fef, #4e1070);
+}
+.animation-container > div:nth-child(312) {
+  --ro: 97deg;
+  -webkit-animation-delay: 2.555s;
+          animation-delay: 2.555s;
+  background-image: radial-gradient(circle at top, #cf8fef, #501070);
+}
+.animation-container > div:nth-child(313) {
+  --ro: 165deg;
+  -webkit-animation-delay: 2.56s;
+          animation-delay: 2.56s;
+  background-image: radial-gradient(circle at top, #d08fef, #511070);
+}
+.animation-container > div:nth-child(314) {
+  --ro: 93deg;
+  -webkit-animation-delay: 2.565s;
+          animation-delay: 2.565s;
+  background-image: radial-gradient(circle at top, #d28fef, #521070);
+}
+.animation-container > div:nth-child(315) {
+  --ro: 52deg;
+  -webkit-animation-delay: 2.57s;
+          animation-delay: 2.57s;
+  background-image: radial-gradient(circle at top, #d38fef, #541070);
+}
+.animation-container > div:nth-child(316) {
+  --ro: 296deg;
+  -webkit-animation-delay: 2.575s;
+          animation-delay: 2.575s;
+  background-image: radial-gradient(circle at top, #d58fef, #551070);
+}
+.animation-container > div:nth-child(317) {
+  --ro: 152deg;
+  -webkit-animation-delay: 2.58s;
+          animation-delay: 2.58s;
+  background-image: radial-gradient(circle at top, #d68fef, #571070);
+}
+.animation-container > div:nth-child(318) {
+  --ro: 87deg;
+  -webkit-animation-delay: 2.585s;
+          animation-delay: 2.585s;
+  background-image: radial-gradient(circle at top, #d88fef, #581070);
+}
+.animation-container > div:nth-child(319) {
+  --ro: 87deg;
+  -webkit-animation-delay: 2.59s;
+          animation-delay: 2.59s;
+  background-image: radial-gradient(circle at top, #d98fef, #5a1070);
+}
+.animation-container > div:nth-child(320) {
+  --ro: 93deg;
+  -webkit-animation-delay: 2.595s;
+          animation-delay: 2.595s;
+  background-image: radial-gradient(circle at top, #db8fef, #5b1070);
+}
+.animation-container > div:nth-child(321) {
+  --ro: 336deg;
+  -webkit-animation-delay: 2.6s;
+          animation-delay: 2.6s;
+  background-image: radial-gradient(circle at top, #dc8fef, #5c1070);
+}
+.animation-container > div:nth-child(322) {
+  --ro: 330deg;
+  -webkit-animation-delay: 2.605s;
+          animation-delay: 2.605s;
+  background-image: radial-gradient(circle at top, #dd8fef, #5e1070);
+}
+.animation-container > div:nth-child(323) {
+  --ro: 221deg;
+  -webkit-animation-delay: 2.61s;
+          animation-delay: 2.61s;
+  background-image: radial-gradient(circle at top, #df8fef, #5f1070);
+}
+.animation-container > div:nth-child(324) {
+  --ro: 334deg;
+  -webkit-animation-delay: 2.615s;
+          animation-delay: 2.615s;
+  background-image: radial-gradient(circle at top, #e08fef, #611070);
+}
+.animation-container > div:nth-child(325) {
+  --ro: 68deg;
+  -webkit-animation-delay: 2.62s;
+          animation-delay: 2.62s;
+  background-image: radial-gradient(circle at top, #e28fef, #621070);
+}
+.animation-container > div:nth-child(326) {
+  --ro: 265deg;
+  -webkit-animation-delay: 2.625s;
+          animation-delay: 2.625s;
+  background-image: radial-gradient(circle at top, #e38fef, #641070);
+}
+.animation-container > div:nth-child(327) {
+  --ro: 159deg;
+  -webkit-animation-delay: 2.63s;
+          animation-delay: 2.63s;
+  background-image: radial-gradient(circle at top, #e58fef, #651070);
+}
+.animation-container > div:nth-child(328) {
+  --ro: 191deg;
+  -webkit-animation-delay: 2.635s;
+          animation-delay: 2.635s;
+  background-image: radial-gradient(circle at top, #e68fef, #661070);
+}
+.animation-container > div:nth-child(329) {
+  --ro: 172deg;
+  -webkit-animation-delay: 2.64s;
+          animation-delay: 2.64s;
+  background-image: radial-gradient(circle at top, #e78fef, #681070);
+}
+.animation-container > div:nth-child(330) {
+  --ro: 238deg;
+  -webkit-animation-delay: 2.645s;
+          animation-delay: 2.645s;
+  background-image: radial-gradient(circle at top, #e98fef, #691070);
+}
+.animation-container > div:nth-child(331) {
+  --ro: 305deg;
+  -webkit-animation-delay: 2.65s;
+          animation-delay: 2.65s;
+  background-image: radial-gradient(circle at top, #ea8fef, #6b1070);
+}
+.animation-container > div:nth-child(332) {
+  --ro: 237deg;
+  -webkit-animation-delay: 2.655s;
+          animation-delay: 2.655s;
+  background-image: radial-gradient(circle at top, #ec8fef, #6c1070);
+}
+.animation-container > div:nth-child(333) {
+  --ro: 123deg;
+  -webkit-animation-delay: 2.66s;
+          animation-delay: 2.66s;
+  background-image: radial-gradient(circle at top, #ed8fef, #6e1070);
+}
+.animation-container > div:nth-child(334) {
+  --ro: 81deg;
+  -webkit-animation-delay: 2.665s;
+          animation-delay: 2.665s;
+  background-image: radial-gradient(circle at top, #ef8fef, #6f1070);
+}
+.animation-container > div:nth-child(335) {
+  --ro: 88deg;
+  -webkit-animation-delay: 2.67s;
+          animation-delay: 2.67s;
+  background-image: radial-gradient(circle at top, #ef8fee, #70106f);
+}
+.animation-container > div:nth-child(336) {
+  --ro: 27deg;
+  -webkit-animation-delay: 2.675s;
+          animation-delay: 2.675s;
+  background-image: radial-gradient(circle at top, #ef8fed, #70106d);
+}
+.animation-container > div:nth-child(337) {
+  --ro: 192deg;
+  -webkit-animation-delay: 2.68s;
+          animation-delay: 2.68s;
+  background-image: radial-gradient(circle at top, #ef8feb, #70106c);
+}
+.animation-container > div:nth-child(338) {
+  --ro: 183deg;
+  -webkit-animation-delay: 2.685s;
+          animation-delay: 2.685s;
+  background-image: radial-gradient(circle at top, #ef8fea, #70106a);
+}
+.animation-container > div:nth-child(339) {
+  --ro: 69deg;
+  -webkit-animation-delay: 2.69s;
+          animation-delay: 2.69s;
+  background-image: radial-gradient(circle at top, #ef8fe8, #701069);
+}
+.animation-container > div:nth-child(340) {
+  --ro: 341deg;
+  -webkit-animation-delay: 2.695s;
+          animation-delay: 2.695s;
+  background-image: radial-gradient(circle at top, #ef8fe7, #701067);
+}
+.animation-container > div:nth-child(341) {
+  --ro: 339deg;
+  -webkit-animation-delay: 2.7s;
+          animation-delay: 2.7s;
+  background-image: radial-gradient(circle at top, #ef8fe6, #701066);
+}
+.animation-container > div:nth-child(342) {
+  --ro: 77deg;
+  -webkit-animation-delay: 2.705s;
+          animation-delay: 2.705s;
+  background-image: radial-gradient(circle at top, #ef8fe4, #701065);
+}
+.animation-container > div:nth-child(343) {
+  --ro: 245deg;
+  -webkit-animation-delay: 2.71s;
+          animation-delay: 2.71s;
+  background-image: radial-gradient(circle at top, #ef8fe3, #701063);
+}
+.animation-container > div:nth-child(344) {
+  --ro: 178deg;
+  -webkit-animation-delay: 2.715s;
+          animation-delay: 2.715s;
+  background-image: radial-gradient(circle at top, #ef8fe1, #701062);
+}
+.animation-container > div:nth-child(345) {
+  --ro: 305deg;
+  -webkit-animation-delay: 2.72s;
+          animation-delay: 2.72s;
+  background-image: radial-gradient(circle at top, #ef8fe0, #701060);
+}
+.animation-container > div:nth-child(346) {
+  --ro: 20deg;
+  -webkit-animation-delay: 2.725s;
+          animation-delay: 2.725s;
+  background-image: radial-gradient(circle at top, #ef8fde, #70105f);
+}
+.animation-container > div:nth-child(347) {
+  --ro: 26deg;
+  -webkit-animation-delay: 2.73s;
+          animation-delay: 2.73s;
+  background-image: radial-gradient(circle at top, #ef8fdd, #70105d);
+}
+.animation-container > div:nth-child(348) {
+  --ro: 56deg;
+  -webkit-animation-delay: 2.735s;
+          animation-delay: 2.735s;
+  background-image: radial-gradient(circle at top, #ef8fdb, #70105c);
+}
+.animation-container > div:nth-child(349) {
+  --ro: 346deg;
+  -webkit-animation-delay: 2.74s;
+          animation-delay: 2.74s;
+  background-image: radial-gradient(circle at top, #ef8fda, #70105b);
+}
+.animation-container > div:nth-child(350) {
+  --ro: 169deg;
+  -webkit-animation-delay: 2.745s;
+          animation-delay: 2.745s;
+  background-image: radial-gradient(circle at top, #ef8fd9, #701059);
+}
+.animation-container > div:nth-child(351) {
+  --ro: 297deg;
+  -webkit-animation-delay: 2.75s;
+          animation-delay: 2.75s;
+  background-image: radial-gradient(circle at top, #ef8fd7, #701058);
+}
+.animation-container > div:nth-child(352) {
+  --ro: 147deg;
+  -webkit-animation-delay: 2.755s;
+          animation-delay: 2.755s;
+  background-image: radial-gradient(circle at top, #ef8fd6, #701056);
+}
+.animation-container > div:nth-child(353) {
+  --ro: 192deg;
+  -webkit-animation-delay: 2.76s;
+          animation-delay: 2.76s;
+  background-image: radial-gradient(circle at top, #ef8fd4, #701055);
+}
+.animation-container > div:nth-child(354) {
+  --ro: 286deg;
+  -webkit-animation-delay: 2.765s;
+          animation-delay: 2.765s;
+  background-image: radial-gradient(circle at top, #ef8fd3, #701053);
+}
+.animation-container > div:nth-child(355) {
+  --ro: 215deg;
+  -webkit-animation-delay: 2.77s;
+          animation-delay: 2.77s;
+  background-image: radial-gradient(circle at top, #ef8fd1, #701052);
+}
+.animation-container > div:nth-child(356) {
+  --ro: 15deg;
+  -webkit-animation-delay: 2.775s;
+          animation-delay: 2.775s;
+  background-image: radial-gradient(circle at top, #ef8fd0, #701050);
+}
+.animation-container > div:nth-child(357) {
+  --ro: 114deg;
+  -webkit-animation-delay: 2.78s;
+          animation-delay: 2.78s;
+  background-image: radial-gradient(circle at top, #ef8fcf, #70104f);
+}
+.animation-container > div:nth-child(358) {
+  --ro: 212deg;
+  -webkit-animation-delay: 2.785s;
+          animation-delay: 2.785s;
+  background-image: radial-gradient(circle at top, #ef8fcd, #70104e);
+}
+.animation-container > div:nth-child(359) {
+  --ro: 349deg;
+  -webkit-animation-delay: 2.79s;
+          animation-delay: 2.79s;
+  background-image: radial-gradient(circle at top, #ef8fcc, #70104c);
+}
+.animation-container > div:nth-child(360) {
+  --ro: 195deg;
+  -webkit-animation-delay: 2.795s;
+          animation-delay: 2.795s;
+  background-image: radial-gradient(circle at top, #ef8fca, #70104b);
+}
+.animation-container > div:nth-child(361) {
+  --ro: 110deg;
+  -webkit-animation-delay: 2.8s;
+          animation-delay: 2.8s;
+  background-image: radial-gradient(circle at top, #ef8fc9, #701049);
+}
+.animation-container > div:nth-child(362) {
+  --ro: 23deg;
+  -webkit-animation-delay: 2.805s;
+          animation-delay: 2.805s;
+  background-image: radial-gradient(circle at top, #ef8fc7, #701048);
+}
+.animation-container > div:nth-child(363) {
+  --ro: 215deg;
+  -webkit-animation-delay: 2.81s;
+          animation-delay: 2.81s;
+  background-image: radial-gradient(circle at top, #ef8fc6, #701046);
+}
+.animation-container > div:nth-child(364) {
+  --ro: 292deg;
+  -webkit-animation-delay: 2.815s;
+          animation-delay: 2.815s;
+  background-image: radial-gradient(circle at top, #ef8fc5, #701045);
+}
+.animation-container > div:nth-child(365) {
+  --ro: 143deg;
+  -webkit-animation-delay: 2.82s;
+          animation-delay: 2.82s;
+  background-image: radial-gradient(circle at top, #ef8fc3, #701044);
+}
+.animation-container > div:nth-child(366) {
+  --ro: 288deg;
+  -webkit-animation-delay: 2.825s;
+          animation-delay: 2.825s;
+  background-image: radial-gradient(circle at top, #ef8fc2, #701042);
+}
+.animation-container > div:nth-child(367) {
+  --ro: 62deg;
+  -webkit-animation-delay: 2.83s;
+          animation-delay: 2.83s;
+  background-image: radial-gradient(circle at top, #ef8fc0, #701041);
+}
+.animation-container > div:nth-child(368) {
+  --ro: 47deg;
+  -webkit-animation-delay: 2.835s;
+          animation-delay: 2.835s;
+  background-image: radial-gradient(circle at top, #ef8fbf, #70103f);
+}
+.animation-container > div:nth-child(369) {
+  --ro: 66deg;
+  -webkit-animation-delay: 2.84s;
+          animation-delay: 2.84s;
+  background-image: radial-gradient(circle at top, #ef8fbd, #70103e);
+}
+.animation-container > div:nth-child(370) {
+  --ro: 296deg;
+  -webkit-animation-delay: 2.845s;
+          animation-delay: 2.845s;
+  background-image: radial-gradient(circle at top, #ef8fbc, #70103c);
+}
+.animation-container > div:nth-child(371) {
+  --ro: 65deg;
+  -webkit-animation-delay: 2.85s;
+          animation-delay: 2.85s;
+  background-image: radial-gradient(circle at top, #ef8fba, #70103b);
+}
+.animation-container > div:nth-child(372) {
+  --ro: 127deg;
+  -webkit-animation-delay: 2.855s;
+          animation-delay: 2.855s;
+  background-image: radial-gradient(circle at top, #ef8fb9, #70103a);
+}
+.animation-container > div:nth-child(373) {
+  --ro: 95deg;
+  -webkit-animation-delay: 2.86s;
+          animation-delay: 2.86s;
+  background-image: radial-gradient(circle at top, #ef8fb8, #701038);
+}
+.animation-container > div:nth-child(374) {
+  --ro: 178deg;
+  -webkit-animation-delay: 2.865s;
+          animation-delay: 2.865s;
+  background-image: radial-gradient(circle at top, #ef8fb6, #701037);
+}
+.animation-container > div:nth-child(375) {
+  --ro: 159deg;
+  -webkit-animation-delay: 2.87s;
+          animation-delay: 2.87s;
+  background-image: radial-gradient(circle at top, #ef8fb5, #701035);
+}
+.animation-container > div:nth-child(376) {
+  --ro: 20deg;
+  -webkit-animation-delay: 2.875s;
+          animation-delay: 2.875s;
+  background-image: radial-gradient(circle at top, #ef8fb3, #701034);
+}
+.animation-container > div:nth-child(377) {
+  --ro: 222deg;
+  -webkit-animation-delay: 2.88s;
+          animation-delay: 2.88s;
+  background-image: radial-gradient(circle at top, #ef8fb2, #701032);
+}
+.animation-container > div:nth-child(378) {
+  --ro: 305deg;
+  -webkit-animation-delay: 2.885s;
+          animation-delay: 2.885s;
+  background-image: radial-gradient(circle at top, #ef8fb0, #701031);
+}
+.animation-container > div:nth-child(379) {
+  --ro: 146deg;
+  -webkit-animation-delay: 2.89s;
+          animation-delay: 2.89s;
+  background-image: radial-gradient(circle at top, #ef8faf, #70102f);
+}
+.animation-container > div:nth-child(380) {
+  --ro: 338deg;
+  -webkit-animation-delay: 2.895s;
+          animation-delay: 2.895s;
+  background-image: radial-gradient(circle at top, #ef8fae, #70102e);
+}
+.animation-container > div:nth-child(381) {
+  --ro: 41deg;
+  -webkit-animation-delay: 2.9s;
+          animation-delay: 2.9s;
+  background-image: radial-gradient(circle at top, #ef8fac, #70102d);
+}
+.animation-container > div:nth-child(382) {
+  --ro: 150deg;
+  -webkit-animation-delay: 2.905s;
+          animation-delay: 2.905s;
+  background-image: radial-gradient(circle at top, #ef8fab, #70102b);
+}
+.animation-container > div:nth-child(383) {
+  --ro: 105deg;
+  -webkit-animation-delay: 2.91s;
+          animation-delay: 2.91s;
+  background-image: radial-gradient(circle at top, #ef8fa9, #70102a);
+}
+.animation-container > div:nth-child(384) {
+  --ro: 98deg;
+  -webkit-animation-delay: 2.915s;
+          animation-delay: 2.915s;
+  background-image: radial-gradient(circle at top, #ef8fa8, #701028);
+}
+.animation-container > div:nth-child(385) {
+  --ro: 185deg;
+  -webkit-animation-delay: 2.92s;
+          animation-delay: 2.92s;
+  background-image: radial-gradient(circle at top, #ef8fa6, #701027);
+}
+.animation-container > div:nth-child(386) {
+  --ro: 166deg;
+  -webkit-animation-delay: 2.925s;
+          animation-delay: 2.925s;
+  background-image: radial-gradient(circle at top, #ef8fa5, #701025);
+}
+.animation-container > div:nth-child(387) {
+  --ro: 222deg;
+  -webkit-animation-delay: 2.93s;
+          animation-delay: 2.93s;
+  background-image: radial-gradient(circle at top, #ef8fa4, #701024);
+}
+.animation-container > div:nth-child(388) {
+  --ro: 27deg;
+  -webkit-animation-delay: 2.935s;
+          animation-delay: 2.935s;
+  background-image: radial-gradient(circle at top, #ef8fa2, #701023);
+}
+.animation-container > div:nth-child(389) {
+  --ro: 103deg;
+  -webkit-animation-delay: 2.94s;
+          animation-delay: 2.94s;
+  background-image: radial-gradient(circle at top, #ef8fa1, #701021);
+}
+.animation-container > div:nth-child(390) {
+  --ro: 127deg;
+  -webkit-animation-delay: 2.945s;
+          animation-delay: 2.945s;
+  background-image: radial-gradient(circle at top, #ef8f9f, #701020);
+}
+.animation-container > div:nth-child(391) {
+  --ro: 38deg;
+  -webkit-animation-delay: 2.95s;
+          animation-delay: 2.95s;
+  background-image: radial-gradient(circle at top, #ef8f9e, #70101e);
+}
+.animation-container > div:nth-child(392) {
+  --ro: 154deg;
+  -webkit-animation-delay: 2.955s;
+          animation-delay: 2.955s;
+  background-image: radial-gradient(circle at top, #ef8f9c, #70101d);
+}
+.animation-container > div:nth-child(393) {
+  --ro: 253deg;
+  -webkit-animation-delay: 2.96s;
+          animation-delay: 2.96s;
+  background-image: radial-gradient(circle at top, #ef8f9b, #70101b);
+}
+.animation-container > div:nth-child(394) {
+  --ro: 164deg;
+  -webkit-animation-delay: 2.965s;
+          animation-delay: 2.965s;
+  background-image: radial-gradient(circle at top, #ef8f99, #70101a);
+}
+.animation-container > div:nth-child(395) {
+  --ro: 288deg;
+  -webkit-animation-delay: 2.97s;
+          animation-delay: 2.97s;
+  background-image: radial-gradient(circle at top, #ef8f98, #701019);
+}
+.animation-container > div:nth-child(396) {
+  --ro: 125deg;
+  -webkit-animation-delay: 2.975s;
+          animation-delay: 2.975s;
+  background-image: radial-gradient(circle at top, #ef8f97, #701017);
+}
+.animation-container > div:nth-child(397) {
+  --ro: 32deg;
+  -webkit-animation-delay: 2.98s;
+          animation-delay: 2.98s;
+  background-image: radial-gradient(circle at top, #ef8f95, #701016);
+}
+.animation-container > div:nth-child(398) {
+  --ro: 119deg;
+  -webkit-animation-delay: 2.985s;
+          animation-delay: 2.985s;
+  background-image: radial-gradient(circle at top, #ef8f94, #701014);
+}
+.animation-container > div:nth-child(399) {
+  --ro: 249deg;
+  -webkit-animation-delay: 2.99s;
+          animation-delay: 2.99s;
+  background-image: radial-gradient(circle at top, #ef8f92, #701013);
+}
+.animation-container > div:nth-child(400) {
+  --ro: 275deg;
+  -webkit-animation-delay: 2.995s;
+          animation-delay: 2.995s;
+  background-image: radial-gradient(circle at top, #ef8f91, #701011);
+}
+@-webkit-keyframes move {
+  0%, 80%, 100% {
+    transform: translate(-50%, -50%) rotate(var(--ro, 0deg)) scale(0);
+    -webkit-animation-timing-function: cubic-bezier(0, 0, 0, 1);
+            animation-timing-function: cubic-bezier(0, 0, 0, 1);
+  }
+  40% {
+    transform: translate(-50%, -50%) rotate(var(--ro, 0deg)) scale(1) translateY(-240px);
+    -webkit-animation-timing-function: cubic-bezier(1, 0, 1, 1);
+            animation-timing-function: cubic-bezier(1, 0, 1, 1);
+  }
+}
+@keyframes move {
+  0%, 80%, 100% {
+    transform: translate(-50%, -50%) rotate(var(--ro, 0deg)) scale(0);
+    -webkit-animation-timing-function: cubic-bezier(0, 0, 0, 1);
+            animation-timing-function: cubic-bezier(0, 0, 0, 1);
+  }
+  40% {
+    transform: translate(-50%, -50%) rotate(var(--ro, 0deg)) scale(1) translateY(-240px);
+    -webkit-animation-timing-function: cubic-bezier(1, 0, 1, 1);
+            animation-timing-function: cubic-bezier(1, 0, 1, 1);
+  }
+}
+
+
+@media screen and (min-width: 1024px) {
+  .animation-container-first {
+    top: 25%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+  }
+  .animation-container-second {
+    top: 25%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+  }
+  .animation-container-third {
+    top: 75%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+  }
+  .animation-container-fourth {
+    top: 75%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+  }
+}
