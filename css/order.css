@@ -150,16 +150,16 @@ option {
     visibility: hidden;
 }
 .checkbox-input:checked+.checkbox-label::before {
-   
+   background-color: var(--first-brand-color);
 }
 .checkbox-label::before {
     display: block;
     content: "";
     position: absolute;
-    width: 1.5rem;
-    height: 1.5rem;
+    width: 2rem;
+    height: 2rem;
     border-radius: 50%;
-    border: .3rem solid var(--main-bg-color);
+    border: .1rem solid var(--sub-bg-color);
     left: 0;
     top: .5rem;
     /* -webkit-box-shadow: 0rem 0rem 0rem .15rem var(--third-brand-color);
