@@ -25,11 +25,11 @@
 .text-section .italic {
     font-style: italic;
 }
-.text-section .link {
+.text-section .link, .link {
    color: var(--link-color);
    position: relative;
 }
-.text-section .link:after {
+.text-section .link:after, .link:after {
     background: none repeat scroll 0 0 transparent;
     bottom: 0;
     content: "";
@@ -41,7 +41,7 @@
     transition: width 0.3s ease 0s, left 0.3s ease 0s;
     width: 0;
 }
-.text-section .link:hover:after {
+.text-section .link:hover:after, .link:hover:after {
     width: 100%; 
   left: 0; 
 }

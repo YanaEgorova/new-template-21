@@ -11,7 +11,7 @@
     padding: 0 2rem;
 }
 .orders__btn svg {
-    fill: var(--first-brand-color);
+    fill: var(--main-bg-color);
     width: 1.5rem;
     margin-right: 2rem;
     transition: all 0.3s ease-in-out;
@@ -194,5 +194,7 @@ option {
     .checkbox-label {
         width: 100%;
     }
-
+    .orders__btn:hover svg {
+        fill: var(--first-brand-color);
+    }
 }
