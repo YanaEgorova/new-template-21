@@ -106,7 +106,7 @@ button:focus {
   height: 100%;
   top: 0;
   background: none;
-  font-size: 4rem;
+  font-size: 2rem;
   font-family: var(--title-font);
   transform-origin: 100% 50%;
   transform: translate3d(150%, 0, 0);
@@ -118,7 +118,7 @@ button:focus {
 }
 .logo span {
   display: inline-block;
-  font-size: 4rem;
+  font-size: 2rem;
   font-family: var(--title-font);
   transition: transform 0.3s cubic-bezier(0.5, 0.5, 0.3, 1);
   /* color: var(--sub-text-color); */
